@@ -1,0 +1,93 @@
+<Folder>
+  <Script>
+    <Workflow>
+      <![CDATA[
+        module clipboard;
+        using system::*;
+
+        namespace gacfred
+        {
+          interface IChat
+          {
+            prop Content : string {not observe}
+            prop SeparatorVisible : bool {}
+
+            func GetRichContent(full : bool) : presentation::DocumentModel^;
+          }
+
+          interface IChatGPTViewModel : IProgramViewModel
+          {
+            prop Chats : observe IChat^[] {const, not observe}
+
+            var ListView : presentation::controls::GuiListControl* = null;
+
+            func AddChat(chat : IChat^) : void;
+            func GetChat(idx : int) : IChat^;
+          }
+        }
+        ]]>
+    </Workflow>
+  </Script>
+
+  <Instance content="File">../Template/ChatListItem.xml</Instance>
+
+  <Instance name="ChatGPT">
+    <Instance ref.Class="gacfred::ChatGPT" xmlns:gacfred="gacfred::*">
+      <ref.Parameter Name="ViewModel" Class="gacfred::IChatGPTViewModel"/>
+      <ref.Members>
+        <![CDATA[
+          var selected : int = -1;
+
+          @cpp:UserImpl
+          @cpp:Private
+          func Paste() : void {}
+        ]]>
+      </ref.Members>
+      <ref.Ctor>
+        <![CDATA[
+          {
+            ViewModel.ListView = listViewChats;
+          }
+        ]]>
+      </ref.Ctor>
+      <CustomControl ref.Name="self">
+        <att.BoundsComposition-set PreferredMinSize="x:640 y:480"/>
+        <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
+          <att.Rows>
+            <CellOption>composeType:MinSize</CellOption>
+          </att.Rows>
+          <att.Columns>
+            <CellOption>composeType:MinSize</CellOption>
+          </att.Columns>
+          <Cell Site="row:0 column:0">
+            <BindableListView ref.Name="listViewChats" HorizontalAlwaysVisible="false" VerticalAlwaysVisible="false" env.ItemType="gacfred::IChat^">
+              <att.BoundsComposition-set AlignmentToParent="left:0 top:10 right:0 bottom:10"/>
+              <att.ControlTemplate>gacfred::ListViewTemplate</att.ControlTemplate>
+              <att.ItemSource-eval>ViewModel.Chats</att.ItemSource-eval>
+              <att.ItemTemplate>gacfred::ChatItemTemplate</att.ItemTemplate>
+              <att.Arranger-eval><![CDATA[new presentation::controls::list::FreeHeightItemArranger^()]]></att.Arranger-eval>
+              <att.Context-ref>ViewModel</att.Context-ref>
+
+              <ev.SelectionChanged-eval>
+                <![CDATA[
+                  {
+                    if (self.selected > 0 and self.selected < ViewModel.Chats.Count)
+                    {
+                      ViewModel.Chats[self.selected - 1].SetSeparatorVisible(true);
+                    }
+                    self.selected = listViewChats.GetSelectedItemIndex();
+                    if (self.selected > 0)
+                    {
+                      ViewModel.Chats[self.selected - 1].SetSeparatorVisible(false);
+                    }
+                  }
+                  ]]>
+              </ev.SelectionChanged-eval>
+            </BindableListView>
+          </Cell>
+        </Table>
+      </CustomControl>
+    </Instance>
+  </Instance>
+
+</Folder>

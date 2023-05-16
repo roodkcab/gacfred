@@ -1,0 +1,16 @@
+<Doc>
+  <Content/>
+  <Styles>
+    <Style name="#Default-Override">
+      <color>#FFFFFF</color>
+    </Style>
+    <Style name="#Selection-Override">
+      <color>#FFFFFF</color>
+      <bkcolor>#007ACC</bkcolor>
+    </Style>
+    <Style name="Search">
+      <color>#FF0000</color>
+      <b>true</b>
+    </Style>
+  </Styles>
+</Doc>

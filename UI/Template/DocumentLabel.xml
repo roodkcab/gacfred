@@ -1,0 +1,5 @@
+<Instance ref.CodeBehind="false" ref.Class="gacfred::DocumentLabelTemplate">
+  <DocumentLabelTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren" BaselineDocument-uri="res://BaselineDocument">
+    <att.CaretColor>#FFFFFF</att.CaretColor>
+  </DocumentLabelTemplate>
+</Instance>

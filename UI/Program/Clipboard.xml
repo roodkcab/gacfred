@@ -1,0 +1,170 @@
+<Folder>
+  <Script>
+    <Workflow>
+      <![CDATA[
+        module clipboard;
+        using system::*;
+
+        namespace gacfred
+        {
+          flagenum CopyType
+          {
+            None = 0,
+            Text = 1,
+            Image = 2,
+          }
+
+          interface ICopy
+          {
+            prop Idx : string {not observe}
+            prop Type : CopyType {not observe}
+            prop Content : string {not observe}
+            prop Ctime : int {not observe}
+            prop SeparatorVisible : bool {}
+            prop Showtime : string {GetShowtime}
+
+            func GetShowtime() : string;
+            func GetRichContent(full : bool) : presentation::DocumentModel^;
+          }
+
+          interface IClipboardViewModel : IProgramViewModel
+          {
+            prop Copies : observe ICopy^[] {const, not observe}
+            prop ShowType : CopyType {}
+
+            var ListView : presentation::controls::GuiListControl* = null;
+
+            func AddCopy(copy : ICopy^) : void;
+            func GetCopy(idx : int) : ICopy^;
+          }
+        }
+        ]]>
+    </Workflow>
+  </Script>
+
+  <Instance content="File">../Template/CopyListItem.xml</Instance>
+  <Instance content="File">../Template/TransparentButton.xml</Instance>
+
+  <Instance name="Clipboard">
+    <Instance ref.Class="gacfred::Clipboard" xmlns:gacfred="gacfred::*">
+      <ref.Parameter Name="ViewModel" Class="gacfred::IClipboardViewModel"/>
+      <ref.Members>
+        <![CDATA[
+          var selected : int = -1;
+
+          @cpp:UserImpl
+          func InstallClipboard() : void {}
+
+          @cpp:UserImpl
+          func Paste() : void {}
+
+          var lastPosX: Int64 = 0;
+
+          var bezier: func(double): double = CubicBezier(0.25, 0, 0, 1);
+
+          var anim : IGuiAnimation^ = null;
+
+          @cpp:Private
+          func PerformChangeAnimation(backgroundBar: GuiBoundsComposition*, posX: int): IGuiAnimation^
+          ${
+            $PlayAndWait IGuiAnimation::CreateAnimation(
+              func (time: UInt64): void
+              {
+                var changeTime = (cast double (time % (cast UInt64 300))) / 300;
+                var x1 = self.btn1.Bounds.x1;
+                var x2 = self.btn2.Bounds.x1;
+                var x3 = self.btn3.Bounds.x1;
+                var bounds: int[] = {x1 x2 x3};
+                var x = bounds[lastPosX] + (bounds[posX] - bounds[lastPosX]) * bezier(changeTime);
+                backgroundBar.AlignmentToParent = {left:(cast Int64 x + 20) top:10 right:-1 bottom:-1};
+              }, cast UInt64 300);
+            lastPosX = posX;
+          }
+        ]]>
+      </ref.Members>
+      <ref.Ctor>
+        <![CDATA[
+          {
+            ViewModel.ListView = listViewCopies;
+            self.InstallClipboard();
+          }
+        ]]>
+      </ref.Ctor>
+      <CustomControl ref.Name="self">
+        <att.ViewModel-set>
+          <ev.ShowTypeChanged-eval>
+            <![CDATA[
+            {
+              self.KillAnimation(self.anim);
+              self.anim = self.PerformChangeAnimation(buttonMA, ViewModel.ShowType == CopyType::None ? 0 : ViewModel.ShowType == CopyType::Text ? 1 : 2);
+              self.AddAnimation(self.anim);
+            }
+            ]]>
+          </ev.ShowTypeChanged-eval>
+        </att.ViewModel-set>
+        <att.BoundsComposition-set PreferredMinSize="x:640 y:480"/>
+        <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
+          <att.Rows>
+            <CellOption>composeType:MinSize</CellOption>
+            <CellOption>composeType:MinSize</CellOption>
+          </att.Rows>
+          <att.Columns>
+            <CellOption>composeType:MinSize</CellOption>
+          </att.Columns>
+          <Cell Site="row:0 column:0">
+            <BoundsComposition ref.Name="containerMA" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:50">
+              <SolidBackground Color="#1E1F22"/>
+              <BoundsComposition ref.Name="buttonMA" AlignmentToParent="left:20 top:10 right:-1 bottom:-1" PreferredMinSize="x:60 y:30">
+                <Bounds AlignmentToParent="left:0 top:0 right:-1 bottom:-1" PreferredMinSize="x:60 y:30">
+                  <SolidBackground Color="#2B2D30" Shape="shapeType:RoundRect radiusX:15 radiusY:15"/>
+                </Bounds>
+              </BoundsComposition>
+              <Flow AlignmentToParent="left:30 top:12 right:0 bottom:0" ColumnPadding="50">
+                <FlowItem ref.Name="btn1" MinSizeLimitation="LimitToElementAndChildren">
+                  <Button IgnoreChildControlMouseEvents="false" Text="All" ev.Clicked-eval="ViewModel.ShowType = CopyType::None;">
+                    <att.ControlTemplate>gacfred::TransparentButtonTemplate</att.ControlTemplate>
+                  </Button>
+                </FlowItem>
+                <FlowItem ref.Name="btn2" MinSizeLimitation="LimitToElementAndChildren">
+                  <Button IgnoreChildControlMouseEvents="false" Text="Text" ev.Clicked-eval="ViewModel.ShowType = CopyType::Text;">
+                    <att.ControlTemplate>gacfred::TransparentButtonTemplate</att.ControlTemplate>
+                  </Button>
+                </FlowItem>
+                <FlowItem ref.Name="btn3" MinSizeLimitation="LimitToElementAndChildren">
+                  <Button IgnoreChildControlMouseEvents="false" Text="Image" ev.Clicked-eval="ViewModel.ShowType = CopyType::Image;">
+                    <att.ControlTemplate>gacfred::TransparentButtonTemplate</att.ControlTemplate>
+                  </Button>
+                </FlowItem>
+              </Flow>
+            </BoundsComposition>
+          </Cell>
+          <Cell Site="row:1 column:0" MinSizeLimitation="LimitToElementAndChildren">
+            <BindableListView ref.Name="listViewCopies" HorizontalAlwaysVisible="false" VerticalAlwaysVisible="false" env.ItemType="gacfred::ICopy^">
+              <att.BoundsComposition-set AlignmentToParent="left:0 top:10 right:0 bottom:10"/>
+              <att.ControlTemplate>gacfred::ListViewTemplate</att.ControlTemplate>
+              <att.ItemSource-eval>ViewModel.Copies</att.ItemSource-eval>
+              <att.ItemTemplate>gacfred::CopyItemTemplate</att.ItemTemplate>
+              <att.Context-ref>ViewModel</att.Context-ref>
+              <ev.SelectionChanged-eval>
+                <![CDATA[
+                  {
+                    if (self.selected > 0 and self.selected < ViewModel.Copies.Count)
+                    {
+                      ViewModel.Copies[self.selected - 1].SetSeparatorVisible(true);
+                    }
+                    self.selected = listViewCopies.GetSelectedItemIndex();
+                    if (self.selected > 0)
+                    {
+                      ViewModel.Copies[self.selected - 1].SetSeparatorVisible(false);
+                    }
+                  }
+                  ]]>
+              </ev.SelectionChanged-eval>
+            </BindableListView>
+          </Cell>
+        </Table>
+      </CustomControl>
+    </Instance>
+  </Instance>
+
+</Folder>

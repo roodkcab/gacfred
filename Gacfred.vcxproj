@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\vcpkg.C.Users.buaac.Projects.vcpkg.1.0.0\build\native\vcpkg.C.Users.buaac.Projects.vcpkg.props" Condition="Exists('packages\vcpkg.C.Users.buaac.Projects.vcpkg.1.0.0\build\native\vcpkg.C.Users.buaac.Projects.vcpkg.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1C4986FB-6988-4562-A5BA-CBB7D21FCE40}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Gacfred</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Gacfred</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\Release\Import;$(IncludePath)</IncludePath>
+    <CustomBuildBeforeTargets>Build</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\..\..\Import;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);VCZH_DEBUG_NO_REFLECTION;SQLITE_ORM_OMITS_CODECVT;_SILENCE_ALL_CXX20_DEPRECATION_WARNINGS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CPPHTTPLIB_OPENSSL_SUPPORT</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)UI\Source;$(ProjectDir)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions);VCZH_DEBUG_NO_REFLECTION</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Lib\ClipboardRequest.cpp" />
+    <ClCompile Include="Lib\MD5.cpp" />
+    <ClCompile Include="Lib\sqlite_orm\WString.cpp" />
+    <ClCompile Include="Lib\util.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Model\Copy.cpp" />
+    <ClCompile Include="UI\Source\GacfredPartialClasses.cpp" />
+    <ClCompile Include="UI\Source\MainWindow.cpp" />
+    <ClCompile Include="ViewModel\MainWindowViewModel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="UI\CopyItem.xml" />
+    <Xml Include="UI\Resource.xml" />
+    <Xml Include="UI\Window.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lib\ClipboardRequest.h" />
+    <ClInclude Include="Lib\MD5.h" />
+    <ClInclude Include="Lib\sqlite_orm\WString.h" />
+    <ClInclude Include="Lib\util.h" />
+    <ClInclude Include="Lib\uuid.h" />
+    <ClInclude Include="Lib\wke.h" />
+    <ClInclude Include="Model\Copy.h" />
+    <ClInclude Include="Model\DB.h" />
+    <ClInclude Include="UI\Source\Gacfred.h" />
+    <ClInclude Include="UI\Source\GacfredPartialClasses.h" />
+    <ClInclude Include="UI\Source\MainWindow.h" />
+    <ClInclude Include="ViewModel\MainWindowViewModel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Release\Tutorial\Lib\GacUILite\GacUILite.vcxproj">
+      <Project>{96c559ca-9718-4bec-a053-28a0ab6a8ca2}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\vcpkg.C.Users.buaac.Projects.vcpkg.1.0.0\build\native\vcpkg.C.Users.buaac.Projects.vcpkg.targets" Condition="Exists('packages\vcpkg.C.Users.buaac.Projects.vcpkg.1.0.0\build\native\vcpkg.C.Users.buaac.Projects.vcpkg.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\vcpkg.C.Users.buaac.Projects.vcpkg.1.0.0\build\native\vcpkg.C.Users.buaac.Projects.vcpkg.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\vcpkg.C.Users.buaac.Projects.vcpkg.1.0.0\build\native\vcpkg.C.Users.buaac.Projects.vcpkg.props'))" />
+    <Error Condition="!Exists('packages\vcpkg.C.Users.buaac.Projects.vcpkg.1.0.0\build\native\vcpkg.C.Users.buaac.Projects.vcpkg.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\vcpkg.C.Users.buaac.Projects.vcpkg.1.0.0\build\native\vcpkg.C.Users.buaac.Projects.vcpkg.targets'))" />
+  </Target>
+</Project>

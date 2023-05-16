@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+  <Folder name="GacGenConfig">
+    <Folder name="Cpp">
+      <Text name="SourceFolder">Source</Text>
+      <Text name="Resource">../Gacfred.bin</Text>
+      <!--<Text name="NormalInclude">GacUI.h;Lib/wke.h</Text>-->
+      <Text name="NormalInclude">GacUI.h</Text>
+      <Text name="Name">Gacfred</Text>
+    </Folder>
+  </Folder>
+
+  <Script>
+    <Workflow>
+      <![CDATA[
+        module mainwindow;
+        using system::*;
+
+        namespace gacfred
+        {
+          func A(aA1: double, aA2: double): double
+          {
+            return 1.0 - 3.0 * aA2 + 3.0 * aA1;
+          }
+
+          func B(aA1: double, aA2: double): double
+          {
+            return 3.0 * aA2 - 6.0 * aA1;
+          }
+
+          func C(aA1: double): double
+          {
+            return 3.0 * aA1;
+          }
+
+          func CalcBezier(aT: double, aA1: double, aA2: double): double
+          {
+            return ((A(aA1, aA2)*aT + B(aA1, aA2))*aT + C(aA1))*aT;
+          }
+
+          func GetSlope(aT: double, aA1: double, aA2: double): double
+          {
+            return 3.0 * A(aA1, aA2)*aT*aT + 2.0 * B(aA1, aA2) * aT + C(aA1);
+          }
+
+          func GetTForX(aX: double, mX1: double, mX2: double): double {
+            var aGuessT = aX;
+            for (i in range[1,4)) {
+              var currentSlope = GetSlope(aGuessT, mX1, mX2);
+              if (currentSlope == 0.0)
+              {
+                return aGuessT;
+              }
+              var currentX = CalcBezier(aGuessT, mX1, mX2) - aX;
+              aGuessT = aGuessT - currentX / currentSlope;
+            }
+            return aGuessT;
+          }
+
+          func CubicBezier(mX1: double, mY1: double, mX2: double, mY2: double): (func(double): double)
+          {
+            return func(x: double): double {
+              if (mX1 == mY1 and mX2 == mY2)
+              {
+                return x;
+              }
+              return CalcBezier(GetTForX(x, mX1, mX2), mY1, mY2);
+            };
+          }
+
+          interface IProgramViewModel
+          {
+            prop Search : string {}
+
+            var mainWindowViewModel : IMainWindowViewModel* = null;
+
+            func HandleKeyDown(arguments: presentation::compositions::GuiKeyEventArgs*) : bool;
+          }
+
+          interface IMainWindowViewModel
+          {
+            prop Program : string {}
+            prop Search : string {}
+            prop ProgramViewModel : IProgramViewModel^ {not observe}
+
+            var ProgramControl : presentation::compositions::GuiCellComposition* = null;
+
+            func HandleKeyDown(arguments: presentation::compositions::GuiKeyEventArgs*) : void;
+            func ResetSearch() : void;
+            func Copy() : void;
+          }
+        }
+        ]]>
+    </Workflow>
+  </Script>
+
+  <Doc name="BaselineDocument" content="File">Template/BaselineDocument.xml</Doc>
+  <Instance content="File">Template/Window.xml</Instance>
+  <Instance content="File">Template/DocumentLabel.xml</Instance>
+  <Folder name="ListTemplate" content="Link">Template/List.xml</Folder>
+  <Folder name="Clipboard" content="Link">Program/Clipboard.xml</Folder>
+  <Folder name="ChatGPT" content="Link">Program/ChatGPT.xml</Folder>
+
+  <Instance name="Gacfred">
+    <Instance ref.Name="mainWindow" ref.Class="gacfred::MainWindow" xmlns:gacfred="gacfred::*">
+      <ref.Parameter Name="ViewModel" Class="gacfred::IMainWindowViewModel"/>
+      <ref.Ctor>
+        <![CDATA[
+          {
+            ViewModel.ProgramControl = programControl;
+          }
+        ]]>
+      </ref.Ctor>
+      <Window ref.Name="self">
+        <ToolstripCommand ref.Name="commandGlobalShow" Text="" ShortcutBuilder="global:Alt+S">
+          <ev.Executed-eval>
+            <![CDATA[
+            GuiApplication::GetApplication().DelayExecuteInMainThread(func():void
+            {
+              self.Show();
+              textBoxInput.SetFocused();
+              ViewModel.SetProgram("clipboard");
+            }, 0);
+            ]]>
+          </ev.Executed-eval>
+        </ToolstripCommand>
+        <ev.ClipboardUpdated-eval>
+          ViewModel.Copy();
+        </ev.ClipboardUpdated-eval>
+        <ev.WindowGotFocus-eval>
+          textBoxInput.SetFocused();
+        </ev.WindowGotFocus-eval>
+        <ev.WindowLostFocus-eval>
+          self.Hide();
+        </ev.WindowLostFocus-eval>
+        <att.ControlTemplate>gacfred::WindowTemplate</att.ControlTemplate>
+        <att.ClientSize-bind>
+          ViewModel.Program == "" ? {x:640 y:55} : {x:640 y:56}
+        </att.ClientSize-bind>
+        <att.ViewModel-set>
+          <att.Search-bind>textBoxInput.Text</att.Search-bind>
+          <ev.ProgramChanged-eval>
+            <![CDATA[
+            tableMain.UpdateCellBounds();
+            ]]>
+          </ev.ProgramChanged-eval>
+        </att.ViewModel-set>
+        <Table ref.Name="tableMain" AlignmentToParent="left:0 top:0 right:0 bottom:0">
+          <att.Rows>
+            <CellOption>composeType:MinSize</CellOption>
+            <CellOption>composeType:MinSize</CellOption>
+          </att.Rows>
+          <att.Columns>
+            <CellOption>composeType:Percentage percentage:1.0</CellOption>
+          </att.Columns>
+          <Cell Site="row:0 column:0" AssociatedHitTestResult="Title">
+            <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
+              <att.Rows>
+                <CellOption>composeType:Absolute absolute:55</CellOption>
+              </att.Rows>
+              <att.Columns>
+                <CellOption>composeType:MinSize</CellOption>
+                <CellOption>composeType:Percentage percentage:1.0</CellOption>
+              </att.Columns>
+              <Cell Site="row:0 column:0">
+                <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
+                  <att.Visible-bind>ViewModel.Program != ""</att.Visible-bind>
+                  <att.MinSizeLimitation-bind>
+                    <![CDATA[
+                    ViewModel.Program != "" ? LimitToElementAndChildren : NoLimit
+                    ]]>
+                  </att.MinSizeLimitation-bind>
+                  <Bounds MinSizeLimitation="LimitToElementAndChildren" AlignmentToParent="left:5 top:15 right:0 bottom:15">
+                    <SolidBackground Color="#1E1F22" Shape="shapeType:RoundRect radiusX:12 radiusY:12"/>
+                    <Bounds MinSizeLimitation="LimitToElementAndChildren" AlignmentToParent="left:10 top:0 right:10 bottom:0">
+                      <Label>
+                        <att.Font>fontFamily:"Segoe UI" size:17 antialias:true</att.Font>
+                        <att.Text-bind>ViewModel.Program</att.Text-bind>
+                      </Label>
+                    </Bounds>
+                  </Bounds>
+                </Bounds>
+              </Cell>
+              <Cell Site="row:0 column:1">
+                <DocumentTextBox ref.Name="textBoxInput" EditMode="Editable">
+                  <ev.FocusedChanged-eval>
+                    <![CDATA[
+                    if (not textBoxInput.GetFocused())
+                    {
+                      GuiApplication::GetApplication().DelayExecuteInMainThread(func():void
+                      {
+                        textBoxInput.SetFocused();
+                      }, 0);
+                    }
+                    ]]>
+                  </ev.FocusedChanged-eval>
+                  <att.ControlTemplate>gacfred::DocumentLabelTemplate</att.ControlTemplate>
+                  <att.BoundsComposition-set PreferredMinSize="y:45">
+                    <att.AlignmentToParent-bind>
+                      ViewModel.Program != "" ? {left:0 top:10 right:0 bottom:0} : {left:10 top:10 right:0 bottom:0}
+                    </att.AlignmentToParent-bind>
+                  </att.BoundsComposition-set>
+                  <att.Font>fontFamily:"Segoe UI" size:17 antialias:true</att.Font>
+                  <att.FocusableComposition-set>
+                    <ev.keyDown-eval>ViewModel.HandleKeyDown(arguments);</ev.keyDown-eval>
+                  </att.FocusableComposition-set>
+                  <att.Text-bind>ViewModel.Search</att.Text-bind>
+                  <Bounds AlignmentToParent="left:5 top:5 right:0 bottom:0">
+                    <Label Font-bind="textBoxInput.Font">
+                      <att.Text-bind>
+                        <![CDATA[ViewModel.Program == "" and textBoxInput.Text == "" ? "Hi GacFred" : ""]]>
+                      </att.Text-bind>
+                    </Label>
+                  </Bounds>
+                </DocumentTextBox>
+              </Cell>
+            </Table>
+          </Cell>
+          <Cell Site="row:1 column:0" ref.Name="programControl"></Cell>
+        </Table>
+      </Window>
+    </Instance>
+  </Instance>
+
+</Resource>

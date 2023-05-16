@@ -1,0 +1,12 @@
+<Instance ref.CodeBehind="false" ref.Class="gacfred::WindowTemplate">
+  <WindowTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+    <att.CustomFrameEnabled>true</att.CustomFrameEnabled>
+    <att.MaximizedBoxOption>AlwaysTrue</att.MaximizedBoxOption>
+    <att.MinimizedBoxOption>AlwaysTrue</att.MinimizedBoxOption>
+    <att.BorderOption>AlwaysFalse</att.BorderOption>
+    <att.SizeBoxOption>AlwaysTrue</att.SizeBoxOption>
+    <att.IconVisibleOption>AlwaysTrue</att.IconVisibleOption>
+    <att.TitleBarOption>AlwaysFalse</att.TitleBarOption>
+    <SolidBackground Color="#2D2D30"/>
+  </WindowTemplate>
+</Instance>

@@ -1,0 +1,5 @@
+.vs
+Debug
+*.log
+build
+*debug

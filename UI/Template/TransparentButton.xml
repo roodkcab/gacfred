@@ -1,0 +1,15 @@
+<Instance ref.CodeBehind="false" ref.Class="gacfred::TransparentButtonTemplate">
+  <ButtonTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+    <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:39 y:25">
+      <att.Rows>
+        <CellOption>composeType:MinSize</CellOption>
+      </att.Rows>
+      <att.Columns>
+        <CellOption>composeType:MinSize</CellOption>
+      </att.Columns>
+      <Cell Site="row:0 column:0">
+        <SolidLabel Color="#FFFFFF" Text-bind="self.Text" Font-bind="self.Font" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+      </Cell>
+    </Table>
+  </ButtonTemplate>
+</Instance>

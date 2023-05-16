@@ -1,0 +1,26 @@
+<Instance ref.CodeBehind="false" ref.Class="gacfred::ChatItemTemplate">
+  <ref.Parameter Name="ViewModel" Class="gacfred::IChat"/>
+  <ListItemTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+    <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+      <att.Rows>
+        <CellOption>composeType:MinSize</CellOption>
+        <CellOption>composeType:Absolute absolute:1</CellOption>
+      </att.Rows>
+      <att.Columns>
+        <CellOption>composeType:Absolute absolute:640</CellOption>
+      </att.Columns>
+      <Cell Site="row:0 column:0">
+        <DocumentLabel EditMode="ViewOnly" Document-bind="ViewModel.GetRichContent(false)">
+          <att.ControlTemplate>gacfred::DocumentLabelTemplate</att.ControlTemplate>
+          <att.BoundsComposition-set AlignmentToParent="left:5 top:15 right:20 bottom:10"/>
+        </DocumentLabel>
+      </Cell>
+      <Cell Site="row:1 column:0">
+        <Bounds AlignmentToParent="left:10 top:0 right:10 bottom:0">
+          <att.Visible-bind>cast bool ( self.Selected ? false : ViewModel.SeparatorVisible )</att.Visible-bind>
+          <SolidBorder Color="#999999"/>
+        </Bounds>
+      </Cell>
+    </Table>
+  </ListItemTemplate>
+</Instance>

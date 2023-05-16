@@ -1,0 +1,85 @@
+<Folder>
+
+  <Instance name="VScrollHandleTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="gacfred::VScrollHandleTemplate">
+      <ButtonTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:0">
+          <SolidBackground Shape="shapeType:RoundRect radiusX:3 radiusY:3">
+            <att.Color-bind>
+              <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? "#00000000" :
+          state == ButtonState::Active ? "#9E9E9E" :
+          state == ButtonState::Pressed ? "#EFEBEF" :
+          "#686868"
+        )
+      ]]>
+            </att.Color-bind>
+          </SolidBackground>
+        </Bounds>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="VScrollTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="gacfred::VScrollTemplate">
+      <ref.Ctor>
+        <![CDATA[
+          {
+            behavior.AttachScrollTemplate(self);
+            behavior.AttachVerticalScrollHandle(handle);
+          }
+        ]]>
+      </ref.Ctor>
+      <ScrollTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <CommonScrollBehavior ref.Name="behavior"/>
+        <Bounds ref.Name="handleContainer" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="NoLimit">
+          <PartialView ref.Name="handle">
+            <att.HeightPageSize-bind>(cast double self.PageSize) / self.TotalSize</att.HeightPageSize-bind>
+            <att.HeightRatio-bind>(cast double self.Position) / self.TotalSize</att.HeightRatio-bind>
+            <Button AutoFocus="false" ControlTemplate="gacfred::VScrollHandleTemplate">
+              <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+            </Button>
+          </PartialView>
+        </Bounds>
+      </ScrollTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="ItemBackgroundTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="gacfred::ItemBackgroundTemplate">
+      <SelectableButtonTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:10 top:0 right:10 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+          <SolidBorder>
+            <att.Color-bind>
+              <![CDATA[
+      cast Color let state = self.State in (
+        not self.VisuallyEnabled ? "#00000000" :
+        self.Selected or state == ButtonState::Pressed ? "#3F51B5" : "#00000000"
+      )
+          ]]>
+            </att.Color-bind>
+          </SolidBorder>
+        </Bounds>
+      </SelectableButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="ListViewTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="gacfred::ListViewTemplate">
+      <ListViewTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <att.ContainerComposition-eval>look.ContainerComposition</att.ContainerComposition-eval>
+        <att.HorizontalScroll-eval>look.HScroll</att.HorizontalScroll-eval>
+        <att.VerticalScroll-eval>look.VScroll</att.VerticalScroll-eval>
+        <att.BackgroundTemplate>gacfred::ItemBackgroundTemplate</att.BackgroundTemplate>
+        <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
+          <CommonScrollViewLook ref.Name="look" AlignmentToParent="left:0 top:0 right:0 bottom:0">
+            <att.VScrollTemplate>gacfred::VScrollTemplate</att.VScrollTemplate>
+            <att.DefaultScrollSize>10</att.DefaultScrollSize>
+          </CommonScrollViewLook>
+        </Bounds>
+      </ListViewTemplate>
+    </Instance>
+  </Instance>
+
+</Folder>
