@@ -110,7 +110,7 @@ namespace gacfred
 					clipboard->Submit();
 					DB.update_all(set(c(&Copy::GetCtime) = std::time(0)), where(c(&Copy::GetIdx) == item->GetIdx()));
 				}
-				static_cast<vl::presentation::controls::GuiBindableListView*>(ListView)->GetVerticalScroll()->SetPosition(0);
+                static_cast<vl::presentation::controls::GuiBindableListView*>(ListView)->SetSelected(0, true);
 				return true;
 			}
         }

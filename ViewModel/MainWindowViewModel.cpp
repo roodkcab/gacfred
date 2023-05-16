@@ -2,7 +2,6 @@
 
 #include "MainWindowViewModel.h"
 #include "ClipboardViewModel.h"
-#include "ChatGPTViewModel.h"
 #include "Lib/util.h"
 #include "Lib/MD5.h"
 #define UUID_SYSTEM_GENERATOR
@@ -39,13 +38,6 @@ namespace gacfred
                 auto vm = vl::Ptr(new ClipboardViewModel());
                 SetProgramViewModel(vm);
                 view = vl::Ptr(new Clipboard(vm));
-                ProgramControl->AddChild(view->GetBoundsComposition());
-            }
-            else if (program == L"chatgpt")
-            {
-                auto vm = vl::Ptr(new ChatGPTViewModel());
-                SetProgramViewModel(vm);
-                view = vl::Ptr(new ChatGPT(vm));
                 ProgramControl->AddChild(view->GetBoundsComposition());
             }
             else

@@ -96,7 +96,7 @@ Global Functions
 
 	::vl::Func<double(double)> Gacfred::CubicBezier(double mX1, double mY1, double mX2, double mY2)
 	{
-		return vl::Func(::vl_workflow_global::__vwsnf55_Gacfred_gacfred_CubicBezier_(mX1, mX2, mY1, mY2));
+		return vl::Func(::vl_workflow_global::__vwsnf49_Gacfred_gacfred_CubicBezier_(mX1, mX2, mY1, mY2));
 	}
 
 	Gacfred& Gacfred::Instance()
@@ -283,17 +283,59 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf21_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_::__vwsnf21_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(::gacfred::ChatGPTConstructor* __vwsnctorthis_0)
+	__vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	::vl::presentation::templates::GuiListItemTemplate* __vwsnf21_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	::vl::presentation::templates::GuiControlTemplate* __vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
 	{
 		{
-			if ([&](){ auto __vwsn_temp__ = __vwsn_viewModel_; return __vwsn_temp__.GetSharedPtr() && ::vl::__vwsn::RawPtrCast<::gacfred::IChat>(__vwsn_temp__.GetRawPtr()) != nullptr; }())
+			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::TransparentButtonTemplate());
+		}
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	::vl::presentation::templates::GuiControlTemplate* __vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	{
+		{
+			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::TransparentButtonTemplate());
+		}
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	::vl::presentation::templates::GuiControlTemplate* __vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	{
+		{
+			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::TransparentButtonTemplate());
+		}
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	::vl::presentation::templates::GuiListItemTemplate* __vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	{
+		{
+			if ([&](){ auto __vwsn_temp__ = __vwsn_viewModel_; return __vwsn_temp__.GetSharedPtr() && ::vl::__vwsn::RawPtrCast<::gacfred::ICopy>(__vwsn_temp__.GetRawPtr()) != nullptr; }())
 			{
-				return static_cast<::vl::presentation::templates::GuiListItemTemplate*>(new ::gacfred::ChatItemTemplate(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::IChat>>(__vwsn_viewModel_)));
+				return static_cast<::vl::presentation::templates::GuiListItemTemplate*>(new ::gacfred::CopyItemTemplate(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::ICopy>>(__vwsn_viewModel_)));
 			}
 		}
 		throw ::vl::Exception(::vl::WString::Unmanaged(L"Cannot find a matched control template to create."));
@@ -301,12 +343,12 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf22_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_::__vwsnf22_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(::gacfred::ChatGPTConstructor* __vwsnctorthis_0)
+	__vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	::vl::presentation::templates::GuiControlTemplate* __vwsnf22_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	::vl::presentation::templates::GuiControlTemplate* __vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
 	{
 		{
 			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::ListViewTemplate());
@@ -315,72 +357,14 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf23_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_::__vwsnf23_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(::gacfred::ChatGPTConstructor* __vwsnctorthis_0)
+	__vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf23_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
+	void __vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
 	{
-		if (((::vl::__vwsn::This(__vwsnthis_0->self)->selected > static_cast<::vl::vint64_t>(0L)) && (::vl::__vwsn::This(__vwsnthis_0->self)->selected < ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetChats().Obj())->GetCount())))
-		{
-			::vl::__vwsn::This(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::IChat>>(::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetChats().Obj())->Get((::vl::__vwsn::This(__vwsnthis_0->self)->selected - static_cast<::vl::vint64_t>(1L)))).Obj())->SetSeparatorVisible(true);
-		}
-		(::vl::__vwsn::This(__vwsnthis_0->self)->selected = ::vl::__vwsn::This(__vwsnthis_0->listViewChats)->GetSelectedItemIndex());
-		if ((::vl::__vwsn::This(__vwsnthis_0->self)->selected > static_cast<::vl::vint64_t>(0L)))
-		{
-			::vl::__vwsn::This(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::IChat>>(::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetChats().Obj())->Get((::vl::__vwsn::This(__vwsnthis_0->self)->selected - static_cast<::vl::vint64_t>(1L)))).Obj())->SetSeparatorVisible(false);
-		}
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_::__vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	::vl::presentation::templates::GuiControlTemplate* __vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
-	{
-		{
-			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::DocumentLabelTemplate());
-		}
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_::__vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_2)->GetDocument();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::Ptr<::vl::presentation::DocumentModel>>(__vwsn_value_);
-		if ((__vwsn_old_.Obj() == __vwsn_new_.Obj()))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_2)->SetDocument(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_::__vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_5)->GetVisible();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<bool>(__vwsn_value_);
-		if ((__vwsn_old_ == __vwsn_new_))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_5)->SetVisible(__vwsn_new_);
+		::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->SetShowType(::gacfred::CopyType::None);
 	}
 
 	//-------------------------------------------------------------------
@@ -390,11 +374,9 @@ Closures
 	{
 	}
 
-	::vl::presentation::templates::GuiControlTemplate* __vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	void __vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
 	{
-		{
-			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::TransparentButtonTemplate());
-		}
+		::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->SetShowType(::gacfred::CopyType::Text);
 	}
 
 	//-------------------------------------------------------------------
@@ -404,11 +386,9 @@ Closures
 	{
 	}
 
-	::vl::presentation::templates::GuiControlTemplate* __vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	void __vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
 	{
-		{
-			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::TransparentButtonTemplate());
-		}
+		::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->SetShowType(::gacfred::CopyType::Image);
 	}
 
 	//-------------------------------------------------------------------
@@ -418,10 +398,16 @@ Closures
 	{
 	}
 
-	::vl::presentation::templates::GuiControlTemplate* __vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	void __vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
 	{
+		if (((::vl::__vwsn::This(__vwsnthis_0->self)->selected > static_cast<::vl::vint64_t>(0L)) && (::vl::__vwsn::This(__vwsnthis_0->self)->selected < ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetCopies().Obj())->GetCount())))
 		{
-			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::TransparentButtonTemplate());
+			::vl::__vwsn::This(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::ICopy>>(::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetCopies().Obj())->Get((::vl::__vwsn::This(__vwsnthis_0->self)->selected - static_cast<::vl::vint64_t>(1L)))).Obj())->SetSeparatorVisible(true);
+		}
+		(::vl::__vwsn::This(__vwsnthis_0->self)->selected = ::vl::__vwsn::This(__vwsnthis_0->listViewCopies)->GetSelectedItemIndex());
+		if ((::vl::__vwsn::This(__vwsnthis_0->self)->selected > static_cast<::vl::vint64_t>(0L)))
+		{
+			::vl::__vwsn::This(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::ICopy>>(::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetCopies().Obj())->Get((::vl::__vwsn::This(__vwsnthis_0->self)->selected - static_cast<::vl::vint64_t>(1L)))).Obj())->SetSeparatorVisible(false);
 		}
 	}
 
@@ -446,95 +432,7 @@ Closures
 	{
 	}
 
-	::vl::presentation::templates::GuiListItemTemplate* __vwsnf30_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
-	{
-		{
-			if ([&](){ auto __vwsn_temp__ = __vwsn_viewModel_; return __vwsn_temp__.GetSharedPtr() && ::vl::__vwsn::RawPtrCast<::gacfred::ICopy>(__vwsn_temp__.GetRawPtr()) != nullptr; }())
-			{
-				return static_cast<::vl::presentation::templates::GuiListItemTemplate*>(new ::gacfred::CopyItemTemplate(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::ICopy>>(__vwsn_viewModel_)));
-			}
-		}
-		throw ::vl::Exception(::vl::WString::Unmanaged(L"Cannot find a matched control template to create."));
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	::vl::presentation::templates::GuiControlTemplate* __vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
-	{
-		{
-			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::ListViewTemplate());
-		}
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
-	{
-		::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->SetShowType(::gacfred::CopyType::None);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
-	{
-		::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->SetShowType(::gacfred::CopyType::Text);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
-	{
-		::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->SetShowType(::gacfred::CopyType::Image);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const
-	{
-		if (((::vl::__vwsn::This(__vwsnthis_0->self)->selected > static_cast<::vl::vint64_t>(0L)) && (::vl::__vwsn::This(__vwsnthis_0->self)->selected < ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetCopies().Obj())->GetCount())))
-		{
-			::vl::__vwsn::This(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::ICopy>>(::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetCopies().Obj())->Get((::vl::__vwsn::This(__vwsnthis_0->self)->selected - static_cast<::vl::vint64_t>(1L)))).Obj())->SetSeparatorVisible(true);
-		}
-		(::vl::__vwsn::This(__vwsnthis_0->self)->selected = ::vl::__vwsn::This(__vwsnthis_0->listViewCopies)->GetSelectedItemIndex());
-		if ((::vl::__vwsn::This(__vwsnthis_0->self)->selected > static_cast<::vl::vint64_t>(0L)))
-		{
-			::vl::__vwsn::This(::vl::__vwsn::Unbox<::vl::Ptr<::gacfred::ICopy>>(::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetCopies().Obj())->Get((::vl::__vwsn::This(__vwsnthis_0->self)->selected - static_cast<::vl::vint64_t>(1L)))).Obj())->SetSeparatorVisible(false);
-		}
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::__vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()() const
+	void __vwsnf30_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_::operator()() const
 	{
 		::vl::__vwsn::This(__vwsnthis_0->self)->KillAnimation(::vl::__vwsn::This(__vwsnthis_0->self)->anim);
 		(::vl::__vwsn::This(__vwsnthis_0->self)->anim = ::vl::__vwsn::This(__vwsnthis_0->self)->PerformChangeAnimation(__vwsnthis_0->buttonMA, ((::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetShowType() == ::gacfred::CopyType::None) ? static_cast<::vl::vint64_t>(0L) : ((::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetShowType() == ::gacfred::CopyType::Text) ? static_cast<::vl::vint64_t>(1L) : static_cast<::vl::vint64_t>(2L)))));
@@ -543,14 +441,14 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf37_Gacfred_gacfred_Clipboard_PerformChangeAnimation_::__vwsnf37_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0)
+	__vwsnf31_Gacfred_gacfred_Clipboard_PerformChangeAnimation_::__vwsnf31_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0)
 		:backgroundBar(__vwsnctor_backgroundBar)
 		, posX(__vwsnctor_posX)
 		, __vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf37_Gacfred_gacfred_Clipboard_PerformChangeAnimation_::operator()(::vl::vuint64_t time) const
+	void __vwsnf31_Gacfred_gacfred_Clipboard_PerformChangeAnimation_::operator()(::vl::vuint64_t time) const
 	{
 		auto changeTime = (static_cast<double>((time % static_cast<::vl::vuint64_t>(static_cast<::vl::vint64_t>(300L)))) / static_cast<double>(static_cast<::vl::vint64_t>(300L)));
 		auto x1 = ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->self)->btn1)->GetBounds().x1;
@@ -563,28 +461,28 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf38_Gacfred_gacfred_Clipboard_PerformChangeAnimation_::__vwsnf38_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0)
+	__vwsnf32_Gacfred_gacfred_Clipboard_PerformChangeAnimation_::__vwsnf32_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0)
 		:backgroundBar(__vwsnctor_backgroundBar)
 		, posX(__vwsnctor_posX)
 		, __vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	::vl::Ptr<::vl::reflection::description::ICoroutine> __vwsnf38_Gacfred_gacfred_Clipboard_PerformChangeAnimation_::operator()(::vl::presentation::controls::IGuiAnimationCoroutine::IImpl* __vwsn_co_impl_) const
+	::vl::Ptr<::vl::reflection::description::ICoroutine> __vwsnf32_Gacfred_gacfred_Clipboard_PerformChangeAnimation_::operator()(::vl::presentation::controls::IGuiAnimationCoroutine::IImpl* __vwsn_co_impl_) const
 	{
-		return ::vl::Ptr<::vl::reflection::description::ICoroutine>(new ::vl_workflow_global::__vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine(__vwsn_co_impl_, backgroundBar, posX, __vwsnthis_0));
+		return ::vl::Ptr<::vl::reflection::description::ICoroutine>(new ::vl_workflow_global::__vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine(__vwsn_co_impl_, backgroundBar, posX, __vwsnthis_0));
 	}
 
 	//-------------------------------------------------------------------
 
-	__vwsnf39_Gacfred_gacfred_Clipboard_PerformChangeAnimation__::__vwsnf39_Gacfred_gacfred_Clipboard_PerformChangeAnimation__(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0)
+	__vwsnf33_Gacfred_gacfred_Clipboard_PerformChangeAnimation__::__vwsnf33_Gacfred_gacfred_Clipboard_PerformChangeAnimation__(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0)
 		:backgroundBar(__vwsnctor_backgroundBar)
 		, posX(__vwsnctor_posX)
 		, __vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf39_Gacfred_gacfred_Clipboard_PerformChangeAnimation__::operator()(::vl::vuint64_t time) const
+	void __vwsnf33_Gacfred_gacfred_Clipboard_PerformChangeAnimation__::operator()(::vl::vuint64_t time) const
 	{
 		auto changeTime = (static_cast<double>((time % static_cast<::vl::vuint64_t>(static_cast<::vl::vint64_t>(300L)))) / static_cast<double>(static_cast<::vl::vint64_t>(300L)));
 		auto x1 = ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_0->self)->btn1)->GetBounds().x1;
@@ -593,6 +491,113 @@ Closures
 		auto bounds = (::vl::__vwsn::CreateList().Add(x1).Add(x2).Add(x3)).list;
 		auto x = (static_cast<double>(::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(__vwsnthis_0->lastPosX))) + (static_cast<double>((::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(posX)) - ::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(__vwsnthis_0->lastPosX)))) * __vwsnthis_0->bezier(changeTime)));
 		::vl::__vwsn::This(backgroundBar)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = (static_cast<::vl::vint64_t>(x) + static_cast<::vl::vint64_t>(20L)); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = (- static_cast<::vl::vint64_t>(1L)); return __vwsn_temp__; }());
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf34_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_::__vwsnf34_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::vl::reflection::description::ICoroutine* __vwsnctorthis_0, ::gacfred::Clipboard* __vwsnctorthis_1)
+		:backgroundBar(__vwsnctor_backgroundBar)
+		, posX(__vwsnctor_posX)
+		, __vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+		, __vwsnthis_1(::vl::__vwsn::This(__vwsnctorthis_1))
+	{
+	}
+
+	void __vwsnf34_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_::operator()(::vl::vuint64_t time) const
+	{
+		auto changeTime = (static_cast<double>((time % static_cast<::vl::vuint64_t>(static_cast<::vl::vint64_t>(300L)))) / static_cast<double>(static_cast<::vl::vint64_t>(300L)));
+		auto x1 = ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_1->self)->btn1)->GetBounds().x1;
+		auto x2 = ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_1->self)->btn2)->GetBounds().x1;
+		auto x3 = ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_1->self)->btn3)->GetBounds().x1;
+		auto bounds = (::vl::__vwsn::CreateList().Add(x1).Add(x2).Add(x3)).list;
+		auto x = (static_cast<double>(::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(__vwsnthis_1->lastPosX))) + (static_cast<double>((::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(posX)) - ::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(__vwsnthis_1->lastPosX)))) * __vwsnthis_1->bezier(changeTime)));
+		::vl::__vwsn::This(backgroundBar)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = (static_cast<::vl::vint64_t>(x) + static_cast<::vl::vint64_t>(20L)); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = (- static_cast<::vl::vint64_t>(1L)); return __vwsn_temp__; }());
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	::vl::presentation::templates::GuiControlTemplate* __vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	{
+		{
+			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::DocumentLabelTemplate());
+		}
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_2.Obj())->GetText();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::WString>(__vwsn_value_);
+		if ((__vwsn_old_ == __vwsn_new_))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_2.Obj())->SetText(__vwsn_new_);
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_4)->GetDocument();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::Ptr<::vl::presentation::DocumentModel>>(__vwsn_value_);
+		if ((__vwsn_old_.Obj() == __vwsn_new_.Obj()))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_4)->SetDocument(__vwsn_new_);
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_7.Obj())->GetText();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::WString>(__vwsn_value_);
+		if ((__vwsn_old_ == __vwsn_new_))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_7.Obj())->SetText(__vwsn_new_);
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_9)->GetVisible();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<bool>(__vwsn_value_);
+		if ((__vwsn_old_ == __vwsn_new_))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_9)->SetVisible(__vwsn_new_);
 	}
 
 	//-------------------------------------------------------------------
@@ -609,47 +614,12 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf40_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_::__vwsnf40_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::vl::reflection::description::ICoroutine* __vwsnctorthis_0, ::gacfred::Clipboard* __vwsnctorthis_1)
-		:backgroundBar(__vwsnctor_backgroundBar)
-		, posX(__vwsnctor_posX)
-		, __vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-		, __vwsnthis_1(::vl::__vwsn::This(__vwsnctorthis_1))
-	{
-	}
-
-	void __vwsnf40_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_::operator()(::vl::vuint64_t time) const
-	{
-		auto changeTime = (static_cast<double>((time % static_cast<::vl::vuint64_t>(static_cast<::vl::vint64_t>(300L)))) / static_cast<double>(static_cast<::vl::vint64_t>(300L)));
-		auto x1 = ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_1->self)->btn1)->GetBounds().x1;
-		auto x2 = ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_1->self)->btn2)->GetBounds().x1;
-		auto x3 = ::vl::__vwsn::This(::vl::__vwsn::This(__vwsnthis_1->self)->btn3)->GetBounds().x1;
-		auto bounds = (::vl::__vwsn::CreateList().Add(x1).Add(x2).Add(x3)).list;
-		auto x = (static_cast<double>(::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(__vwsnthis_1->lastPosX))) + (static_cast<double>((::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(posX)) - ::vl::__vwsn::Unbox<::vl::vint64_t>(::vl::__vwsn::This(bounds.Obj())->Get(__vwsnthis_1->lastPosX)))) * __vwsnthis_1->bezier(changeTime)));
-		::vl::__vwsn::This(backgroundBar)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = (static_cast<::vl::vint64_t>(x) + static_cast<::vl::vint64_t>(20L)); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = (- static_cast<::vl::vint64_t>(1L)); return __vwsn_temp__; }());
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+	__vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_::__vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	::vl::presentation::templates::GuiControlTemplate* __vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
-	{
-		{
-			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::DocumentLabelTemplate());
-		}
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	void __vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
 	{
 		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_2.Obj())->GetText();
 		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::WString>(__vwsn_value_);
@@ -662,84 +632,12 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+	__vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_::__vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_4)->GetDocument();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::Ptr<::vl::presentation::DocumentModel>>(__vwsn_value_);
-		if ((__vwsn_old_.Obj() == __vwsn_new_.Obj()))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_4)->SetDocument(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_7.Obj())->GetText();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::WString>(__vwsn_value_);
-		if ((__vwsn_old_ == __vwsn_new_))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_7.Obj())->SetText(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::__vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_9)->GetVisible();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<bool>(__vwsn_value_);
-		if ((__vwsn_old_ == __vwsn_new_))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_9)->SetVisible(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_::__vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_2.Obj())->GetText();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::WString>(__vwsn_value_);
-		if ((__vwsn_old_ == __vwsn_new_))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_2.Obj())->SetText(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_::__vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	void __vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
 	{
 		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_2.Obj())->GetFont();
 		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::FontProperties>(__vwsn_value_);
@@ -752,12 +650,12 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_::__vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_(::gacfred::ItemBackgroundTemplateConstructor* __vwsnctorthis_0)
+	__vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_::__vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_(::gacfred::ItemBackgroundTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	void __vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
 	{
 		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_1.Obj())->GetColor();
 		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
@@ -770,16 +668,117 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_::__vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(::gacfred::ListViewTemplateConstructor* __vwsnctorthis_0)
+	__vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_::__vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(::gacfred::ListViewTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	::vl::presentation::templates::GuiSelectableButtonTemplate* __vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	::vl::presentation::templates::GuiSelectableButtonTemplate* __vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
 	{
 		{
 			return static_cast<::vl::presentation::templates::GuiSelectableButtonTemplate*>(new ::gacfred::ItemBackgroundTemplate());
 		}
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_::__vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(::gacfred::ListViewTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	::vl::presentation::templates::GuiScrollTemplate* __vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	{
+		{
+			return static_cast<::vl::presentation::templates::GuiScrollTemplate*>(new ::gacfred::VScrollTemplate());
+		}
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_::__vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_(::gacfred::VScrollHandleTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_1.Obj())->GetColor();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
+		if ((__vwsn_old_ == __vwsn_new_))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_1.Obj())->SetColor(__vwsn_new_);
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::__vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	::vl::presentation::templates::GuiControlTemplate* __vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
+	{
+		{
+			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::VScrollHandleTemplate());
+		}
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::__vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->handle)->GetHeightPageSize();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<double>(__vwsn_value_);
+		if ((__vwsn_old_ == __vwsn_new_))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->handle)->SetHeightPageSize(__vwsn_new_);
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::__vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->handle)->GetHeightRatio();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<double>(__vwsn_value_);
+		if ((__vwsn_old_ == __vwsn_new_))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->handle)->SetHeightRatio(__vwsn_new_);
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf49_Gacfred_gacfred_CubicBezier_::__vwsnf49_Gacfred_gacfred_CubicBezier_(double __vwsnctor_mX1, double __vwsnctor_mX2, double __vwsnctor_mY1, double __vwsnctor_mY2)
+		:mX1(__vwsnctor_mX1)
+		, mX2(__vwsnctor_mX2)
+		, mY1(__vwsnctor_mY1)
+		, mY2(__vwsnctor_mY2)
+	{
+	}
+
+	double __vwsnf49_Gacfred_gacfred_CubicBezier_::operator()(double x) const
+	{
+		if (((mX1 == mY1) && (mX2 == mY2)))
+		{
+			return x;
+		}
+		return GLOBAL_NAME CalcBezier(GLOBAL_NAME GetTForX(x, mX1, mX2), mY1, mY2);
 	}
 
 	//-------------------------------------------------------------------
@@ -794,107 +793,6 @@ Closures
 		::vl::__vwsn::This(__vwsnthis_0->self)->Show();
 		::vl::__vwsn::This(__vwsnthis_0->textBoxInput)->SetFocused();
 		::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->SetProgram(::vl::WString::Unmanaged(L"clipboard"));
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_::__vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(::gacfred::ListViewTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	::vl::presentation::templates::GuiScrollTemplate* __vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
-	{
-		{
-			return static_cast<::vl::presentation::templates::GuiScrollTemplate*>(new ::gacfred::VScrollTemplate());
-		}
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_::__vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_(::gacfred::VScrollHandleTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_1.Obj())->GetColor();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
-		if ((__vwsn_old_ == __vwsn_new_))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_1.Obj())->SetColor(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::__vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	::vl::presentation::templates::GuiControlTemplate* __vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const
-	{
-		{
-			return static_cast<::vl::presentation::templates::GuiControlTemplate*>(new ::gacfred::VScrollHandleTemplate());
-		}
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::__vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->handle)->GetHeightPageSize();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<double>(__vwsn_value_);
-		if ((__vwsn_old_ == __vwsn_new_))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->handle)->SetHeightPageSize(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::__vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->handle)->GetHeightRatio();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<double>(__vwsn_value_);
-		if ((__vwsn_old_ == __vwsn_new_))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->handle)->SetHeightRatio(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf55_Gacfred_gacfred_CubicBezier_::__vwsnf55_Gacfred_gacfred_CubicBezier_(double __vwsnctor_mX1, double __vwsnctor_mX2, double __vwsnctor_mY1, double __vwsnctor_mY2)
-		:mX1(__vwsnctor_mX1)
-		, mX2(__vwsnctor_mX2)
-		, mY1(__vwsnctor_mY1)
-		, mY2(__vwsnctor_mY2)
-	{
-	}
-
-	double __vwsnf55_Gacfred_gacfred_CubicBezier_::operator()(double x) const
-	{
-		if (((mX1 == mY1) && (mX2 == mY2)))
-		{
-			return x;
-		}
-		return GLOBAL_NAME CalcBezier(GLOBAL_NAME GetTForX(x, mX1, mX2), mY1, mY2);
 	}
 
 	//-------------------------------------------------------------------
@@ -989,129 +887,7 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-		this->__vwsn_bind_opened_ = false;
-		this->__vwsn_bind_closed_ = false;
-	}
-
-	void __vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
-	{
-		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetRichContent(false);
-		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
-	}
-
-	bool __vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
-	{
-		if ((! __vwsn_bind_opened_))
-		{
-			(__vwsn_bind_opened_ = true);
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
-	{
-		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
-		{
-			this->__vwsn_bind_activator_();
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
-	{
-		if ((! __vwsn_bind_closed_))
-		{
-			(__vwsn_bind_closed_ = true);
-			return true;
-		}
-		return false;
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-		this->__vwsn_bind_cache_0 = static_cast<::gacfred::ChatItemTemplate*>(nullptr);
-		this->__vwsn_bind_cache_1 = ::vl::Ptr<::gacfred::IChat>();
-		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_opened_ = false;
-		this->__vwsn_bind_closed_ = false;
-	}
-
-	void __vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
-	{
-		auto __vwsn_bind_activator_result_ = (::vl::__vwsn::This(__vwsn_bind_cache_0)->GetSelected() ? false : ::vl::__vwsn::This(__vwsn_bind_cache_1.Obj())->GetSeparatorVisible());
-		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
-	}
-
-	void __vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	void __vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0()
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	bool __vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
-	{
-		if ((! __vwsn_bind_opened_))
-		{
-			(__vwsn_bind_opened_ = true);
-			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::ChatItemTemplate*>(nullptr); } }());
-			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->ViewModel; } catch(...){ return ::vl::Ptr<::gacfred::IChat>(); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->SelectedChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1.Obj())->SeparatorVisibleChanged, ::vl::Func<void()>(this, &__vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
-	{
-		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
-		{
-			this->__vwsn_bind_activator_();
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
-	{
-		if ((! __vwsn_bind_closed_))
-		{
-			(__vwsn_bind_closed_ = true);
-			if (static_cast<bool>(__vwsn_bind_handler_0_0))
-			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->SelectedChanged, __vwsn_bind_handler_0_0);
-				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			}
-			if (static_cast<bool>(__vwsn_bind_handler_1_0))
-			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_1.Obj())->SeparatorVisibleChanged, __vwsn_bind_handler_1_0);
-				(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			}
-			(__vwsn_bind_cache_0 = static_cast<::gacfred::ChatItemTemplate*>(nullptr));
-			(__vwsn_bind_cache_1 = ::vl::Ptr<::gacfred::IChat>());
-			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			return true;
-		}
-		return false;
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::__vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine(::vl::presentation::controls::IGuiAnimationCoroutine::IImpl* __vwsnctor___vwsn_co_impl_, ::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0)
+	__vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::__vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine(::vl::presentation::controls::IGuiAnimationCoroutine::IImpl* __vwsnctor___vwsn_co_impl_, ::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0)
 		:__vwsn_co_impl_(__vwsnctor___vwsn_co_impl_)
 		, backgroundBar(__vwsnctor_backgroundBar)
 		, posX(__vwsnctor_posX)
@@ -1123,25 +899,25 @@ Closures
 		this->__vwsn_prop_Status = ::vl::reflection::description::CoroutineStatus::Waiting;
 	}
 
-	::vl::Ptr<::vl::reflection::description::IValueException> __vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::GetFailure()
+	::vl::Ptr<::vl::reflection::description::IValueException> __vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::GetFailure()
 	{
 		return __vwsn_prop_Failure;
 	}
-	void __vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::SetFailure(::vl::Ptr<::vl::reflection::description::IValueException> __vwsn_value_)
+	void __vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::SetFailure(::vl::Ptr<::vl::reflection::description::IValueException> __vwsn_value_)
 	{
 		(__vwsn_prop_Failure = __vwsn_value_);
 	}
 
-	::vl::reflection::description::CoroutineStatus __vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::GetStatus()
+	::vl::reflection::description::CoroutineStatus __vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::GetStatus()
 	{
 		return __vwsn_prop_Status;
 	}
-	void __vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::SetStatus(::vl::reflection::description::CoroutineStatus __vwsn_value_)
+	void __vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::SetStatus(::vl::reflection::description::CoroutineStatus __vwsn_value_)
 	{
 		(__vwsn_prop_Status = __vwsn_value_);
 	}
 
-	void __vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::Resume(bool __vwsn_raise_exception_, ::vl::Ptr<::vl::reflection::description::CoroutineResult> __vwsn_co_result_)
+	void __vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine::Resume(bool __vwsn_raise_exception_, ::vl::Ptr<::vl::reflection::description::CoroutineResult> __vwsn_co_result_)
 	{
 		if ((this->GetStatus() != ::vl::reflection::description::CoroutineStatus::Waiting))
 		{
@@ -1177,7 +953,7 @@ Closures
 						(__vwsn_co_state_before_pause_ = __vwsn_co_state_);
 						(__vwsn_co_state_ = static_cast<::vl::vint64_t>(1L));
 						{
-							::vl::presentation::controls::IGuiAnimationCoroutine::PlayAndWaitAndPause(__vwsn_co_impl_, ::vl::presentation::controls::IGuiAnimation::CreateAnimation(vl::Func(::vl_workflow_global::__vwsnf40_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_(backgroundBar, posX, this, __vwsnthis_0)), static_cast<::vl::vuint64_t>(static_cast<::vl::vint64_t>(300L))));
+							::vl::presentation::controls::IGuiAnimationCoroutine::PlayAndWaitAndPause(__vwsn_co_impl_, ::vl::presentation::controls::IGuiAnimation::CreateAnimation(vl::Func(::vl_workflow_global::__vwsnf34_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_(backgroundBar, posX, this, __vwsnthis_0)), static_cast<::vl::vuint64_t>(static_cast<::vl::vint64_t>(300L))));
 						}
 						return;
 					}
@@ -1213,17 +989,114 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_opened_ = false;
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
 		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetShowtime();
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
+	}
+
+	bool __vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	{
+		if ((! __vwsn_bind_opened_))
+		{
+			(__vwsn_bind_opened_ = true);
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	{
+		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
+		{
+			this->__vwsn_bind_activator_();
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	{
+		if ((! __vwsn_bind_closed_))
+		{
+			(__vwsn_bind_closed_ = true);
+			return true;
+		}
+		return false;
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+		this->__vwsn_bind_opened_ = false;
+		this->__vwsn_bind_closed_ = false;
+	}
+
+	void __vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	{
+		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetRichContent(false);
+		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
+	}
+
+	bool __vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	{
+		if ((! __vwsn_bind_opened_))
+		{
+			(__vwsn_bind_opened_ = true);
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	{
+		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
+		{
+			this->__vwsn_bind_activator_();
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	{
+		if ((! __vwsn_bind_closed_))
+		{
+			(__vwsn_bind_closed_ = true);
+			return true;
+		}
+		return false;
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+		this->__vwsn_bind_cache_0 = static_cast<::gacfred::CopyItemTemplate*>(nullptr);
+		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_opened_ = false;
+		this->__vwsn_bind_closed_ = false;
+	}
+
+	void __vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	{
+		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::ToString((::vl::__vwsn::This(__vwsn_bind_cache_0)->GetIndex() + static_cast<::vl::vint64_t>(1L)));
+		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
+	}
+
+	void __vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
 	}
 
 	bool __vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
@@ -1231,6 +1104,8 @@ Closures
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
+			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::CopyItemTemplate*>(nullptr); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->IndexChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
@@ -1251,6 +1126,13 @@ Closures
 		if ((! __vwsn_bind_closed_))
 		{
 			(__vwsn_bind_closed_ = true);
+			if (static_cast<bool>(__vwsn_bind_handler_0_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->IndexChanged, __vwsn_bind_handler_0_0);
+				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			(__vwsn_bind_cache_0 = static_cast<::gacfred::CopyItemTemplate*>(nullptr));
+			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			return true;
 		}
 		return false;
@@ -1261,14 +1143,28 @@ Closures
 	__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
+		this->__vwsn_bind_cache_0 = static_cast<::gacfred::CopyItemTemplate*>(nullptr);
+		this->__vwsn_bind_cache_1 = ::vl::Ptr<::gacfred::ICopy>();
+		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
 		this->__vwsn_bind_opened_ = false;
 		this->__vwsn_bind_closed_ = false;
 	}
 
 	void __vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
-		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsnthis_0->ViewModel.Obj())->GetRichContent(false);
+		auto __vwsn_bind_activator_result_ = (::vl::__vwsn::This(__vwsn_bind_cache_0)->GetSelected() ? false : ::vl::__vwsn::This(__vwsn_bind_cache_1.Obj())->GetSeparatorVisible());
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
+	}
+
+	void __vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
+	void __vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0()
+	{
+		this->__vwsn_bind_activator_();
 	}
 
 	bool __vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
@@ -1276,6 +1172,10 @@ Closures
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
+			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::CopyItemTemplate*>(nullptr); } }());
+			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->ViewModel; } catch(...){ return ::vl::Ptr<::gacfred::ICopy>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->SelectedChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1.Obj())->SeparatorVisibleChanged, ::vl::Func<void()>(this, &__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
@@ -1292,130 +1192,6 @@ Closures
 	}
 
 	bool __vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
-	{
-		if ((! __vwsn_bind_closed_))
-		{
-			(__vwsn_bind_closed_ = true);
-			return true;
-		}
-		return false;
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-		this->__vwsn_bind_cache_0 = static_cast<::gacfred::CopyItemTemplate*>(nullptr);
-		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_opened_ = false;
-		this->__vwsn_bind_closed_ = false;
-	}
-
-	void __vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
-	{
-		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::ToString((::vl::__vwsn::This(__vwsn_bind_cache_0)->GetIndex() + static_cast<::vl::vint64_t>(1L)));
-		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
-	}
-
-	void __vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	bool __vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
-	{
-		if ((! __vwsn_bind_opened_))
-		{
-			(__vwsn_bind_opened_ = true);
-			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::CopyItemTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->IndexChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
-	{
-		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
-		{
-			this->__vwsn_bind_activator_();
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
-	{
-		if ((! __vwsn_bind_closed_))
-		{
-			(__vwsn_bind_closed_ = true);
-			if (static_cast<bool>(__vwsn_bind_handler_0_0))
-			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->IndexChanged, __vwsn_bind_handler_0_0);
-				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			}
-			(__vwsn_bind_cache_0 = static_cast<::gacfred::CopyItemTemplate*>(nullptr));
-			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			return true;
-		}
-		return false;
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-		this->__vwsn_bind_cache_0 = static_cast<::gacfred::CopyItemTemplate*>(nullptr);
-		this->__vwsn_bind_cache_1 = ::vl::Ptr<::gacfred::ICopy>();
-		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_opened_ = false;
-		this->__vwsn_bind_closed_ = false;
-	}
-
-	void __vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
-	{
-		auto __vwsn_bind_activator_result_ = (::vl::__vwsn::This(__vwsn_bind_cache_0)->GetSelected() ? false : ::vl::__vwsn::This(__vwsn_bind_cache_1.Obj())->GetSeparatorVisible());
-		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
-	}
-
-	void __vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	void __vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0()
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	bool __vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
-	{
-		if ((! __vwsn_bind_opened_))
-		{
-			(__vwsn_bind_opened_ = true);
-			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::CopyItemTemplate*>(nullptr); } }());
-			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->ViewModel; } catch(...){ return ::vl::Ptr<::gacfred::ICopy>(); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->SelectedChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1.Obj())->SeparatorVisibleChanged, ::vl::Func<void()>(this, &__vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
-	{
-		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
-		{
-			this->__vwsn_bind_activator_();
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -1441,7 +1217,7 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::gacfred::TransparentButtonTemplate*>(nullptr);
@@ -1450,30 +1226,30 @@ Closures
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
 		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetText();
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
-	void __vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	bool __vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	bool __vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::TransparentButtonTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->TextChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->TextChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
 	}
 
-	bool __vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	bool __vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
 	{
 		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
 		{
@@ -1483,7 +1259,7 @@ Closures
 		return false;
 	}
 
-	bool __vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	bool __vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -1502,7 +1278,7 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::gacfred::TransparentButtonTemplate*>(nullptr);
@@ -1511,30 +1287,30 @@ Closures
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
 		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetFont();
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
-	void __vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	bool __vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	bool __vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::TransparentButtonTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->FontChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->FontChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
 	}
 
-	bool __vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	bool __vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
 	{
 		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
 		{
@@ -1544,7 +1320,7 @@ Closures
 		return false;
 	}
 
-	bool __vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	bool __vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -1563,7 +1339,7 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::ItemBackgroundTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::ItemBackgroundTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::gacfred::ItemBackgroundTemplate*>(nullptr);
@@ -1576,28 +1352,28 @@ Closures
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
 		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::Parse<::vl::presentation::Color>([&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::WString::Unmanaged(L"#00000000") : ((::vl::__vwsn::This(__vwsn_bind_cache_2)->GetSelected() || (state == ::vl::presentation::controls::ButtonState::Pressed)) ? ::vl::WString::Unmanaged(L"#3F51B5") : ::vl::WString::Unmanaged(L"#00000000"))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState()));
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
-	void __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	void __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	void __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_2_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_2_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	bool __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	bool __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
 		{
@@ -1605,15 +1381,15 @@ Closures
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::ItemBackgroundTemplate*>(nullptr); } }());
 			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::ItemBackgroundTemplate*>(nullptr); } }());
 			(__vwsn_bind_cache_2 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::ItemBackgroundTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_2_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_2)->SelectedChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_2_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_2_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_2)->SelectedChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_2_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
 	}
 
-	bool __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	bool __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
 	{
 		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
 		{
@@ -1623,7 +1399,7 @@ Closures
 		return false;
 	}
 
-	bool __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	bool __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -1649,6 +1425,160 @@ Closures
 			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			(__vwsn_bind_handler_2_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			return true;
+		}
+		return false;
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollHandleTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+		this->__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollHandleTemplate*>(nullptr);
+		this->__vwsn_bind_cache_1 = static_cast<::gacfred::VScrollHandleTemplate*>(nullptr);
+		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_opened_ = false;
+		this->__vwsn_bind_closed_ = false;
+	}
+
+	void __vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	{
+		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::Parse<::vl::presentation::Color>([&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::WString::Unmanaged(L"#00000000") : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::WString::Unmanaged(L"#9E9E9E") : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::WString::Unmanaged(L"#EFEBEF") : ::vl::WString::Unmanaged(L"#686868")))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState()));
+		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
+	}
+
+	void __vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
+	void __vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
+	bool __vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	{
+		if ((! __vwsn_bind_opened_))
+		{
+			(__vwsn_bind_opened_ = true);
+			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollHandleTemplate*>(nullptr); } }());
+			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollHandleTemplate*>(nullptr); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	{
+		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
+		{
+			this->__vwsn_bind_activator_();
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	{
+		if ((! __vwsn_bind_closed_))
+		{
+			(__vwsn_bind_closed_ = true);
+			if (static_cast<bool>(__vwsn_bind_handler_0_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, __vwsn_bind_handler_0_0);
+				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			if (static_cast<bool>(__vwsn_bind_handler_1_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, __vwsn_bind_handler_1_0);
+				(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			(__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollHandleTemplate*>(nullptr));
+			(__vwsn_bind_cache_1 = static_cast<::gacfred::VScrollHandleTemplate*>(nullptr));
+			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			return true;
+		}
+		return false;
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+		this->__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollTemplate*>(nullptr);
+		this->__vwsn_bind_cache_1 = static_cast<::gacfred::VScrollTemplate*>(nullptr);
+		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_opened_ = false;
+		this->__vwsn_bind_closed_ = false;
+	}
+
+	void __vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	{
+		auto __vwsn_bind_activator_result_ = (static_cast<double>(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetPageSize()) / static_cast<double>(::vl::__vwsn::This(__vwsn_bind_cache_1)->GetTotalSize()));
+		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
+	}
+
+	void __vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
+	void __vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
+	bool __vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	{
+		if ((! __vwsn_bind_opened_))
+		{
+			(__vwsn_bind_opened_ = true);
+			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollTemplate*>(nullptr); } }());
+			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollTemplate*>(nullptr); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->PageSizeChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->TotalSizeChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	{
+		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
+		{
+			this->__vwsn_bind_activator_();
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	{
+		if ((! __vwsn_bind_closed_))
+		{
+			(__vwsn_bind_closed_ = true);
+			if (static_cast<bool>(__vwsn_bind_handler_0_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->PageSizeChanged, __vwsn_bind_handler_0_0);
+				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			if (static_cast<bool>(__vwsn_bind_handler_1_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_1)->TotalSizeChanged, __vwsn_bind_handler_1_0);
+				(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			(__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollTemplate*>(nullptr));
+			(__vwsn_bind_cache_1 = static_cast<::gacfred::VScrollTemplate*>(nullptr));
+			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			return true;
 		}
 		return false;
@@ -1717,84 +1647,7 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollHandleTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-		this->__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollHandleTemplate*>(nullptr);
-		this->__vwsn_bind_cache_1 = static_cast<::gacfred::VScrollHandleTemplate*>(nullptr);
-		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_opened_ = false;
-		this->__vwsn_bind_closed_ = false;
-	}
-
-	void __vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
-	{
-		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::Parse<::vl::presentation::Color>([&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::WString::Unmanaged(L"#00000000") : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::WString::Unmanaged(L"#9E9E9E") : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::WString::Unmanaged(L"#EFEBEF") : ::vl::WString::Unmanaged(L"#686868")))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState()));
-		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
-	}
-
-	void __vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	void __vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	bool __vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
-	{
-		if ((! __vwsn_bind_opened_))
-		{
-			(__vwsn_bind_opened_ = true);
-			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollHandleTemplate*>(nullptr); } }());
-			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollHandleTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
-	{
-		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
-		{
-			this->__vwsn_bind_activator_();
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
-	{
-		if ((! __vwsn_bind_closed_))
-		{
-			(__vwsn_bind_closed_ = true);
-			if (static_cast<bool>(__vwsn_bind_handler_0_0))
-			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, __vwsn_bind_handler_0_0);
-				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			}
-			if (static_cast<bool>(__vwsn_bind_handler_1_0))
-			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, __vwsn_bind_handler_1_0);
-				(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			}
-			(__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollHandleTemplate*>(nullptr));
-			(__vwsn_bind_cache_1 = static_cast<::gacfred::VScrollHandleTemplate*>(nullptr));
-			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			return true;
-		}
-		return false;
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollTemplate*>(nullptr);
@@ -1805,114 +1658,37 @@ Closures
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
-	{
-		auto __vwsn_bind_activator_result_ = (static_cast<double>(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetPageSize()) / static_cast<double>(::vl::__vwsn::This(__vwsn_bind_cache_1)->GetTotalSize()));
-		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
-	}
-
-	void __vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	void __vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	bool __vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
-	{
-		if ((! __vwsn_bind_opened_))
-		{
-			(__vwsn_bind_opened_ = true);
-			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollTemplate*>(nullptr); } }());
-			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->PageSizeChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->TotalSizeChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
-	{
-		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
-		{
-			this->__vwsn_bind_activator_();
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
-	{
-		if ((! __vwsn_bind_closed_))
-		{
-			(__vwsn_bind_closed_ = true);
-			if (static_cast<bool>(__vwsn_bind_handler_0_0))
-			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->PageSizeChanged, __vwsn_bind_handler_0_0);
-				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			}
-			if (static_cast<bool>(__vwsn_bind_handler_1_0))
-			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_1)->TotalSizeChanged, __vwsn_bind_handler_1_0);
-				(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			}
-			(__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollTemplate*>(nullptr));
-			(__vwsn_bind_cache_1 = static_cast<::gacfred::VScrollTemplate*>(nullptr));
-			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			return true;
-		}
-		return false;
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-		this->__vwsn_bind_cache_0 = static_cast<::gacfred::VScrollTemplate*>(nullptr);
-		this->__vwsn_bind_cache_1 = static_cast<::gacfred::VScrollTemplate*>(nullptr);
-		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_opened_ = false;
-		this->__vwsn_bind_closed_ = false;
-	}
-
-	void __vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
 		auto __vwsn_bind_activator_result_ = (static_cast<double>(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetPosition()) / static_cast<double>(::vl::__vwsn::This(__vwsn_bind_cache_1)->GetTotalSize()));
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
-	void __vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	void __vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	bool __vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	bool __vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollTemplate*>(nullptr); } }());
 			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::gacfred::VScrollTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->PositionChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->TotalSizeChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->PositionChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->TotalSizeChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
 	}
 
-	bool __vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	bool __vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
 	{
 		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
 		{
@@ -1922,7 +1698,7 @@ Closures
 		return false;
 	}
 
-	bool __vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	bool __vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -2453,210 +2229,11 @@ Closures
 }
 
 /***********************************************************************
-Class (::gacfred::ChatGPTConstructor)
+Class (::gacfred::ClipboardConstructor)
 ***********************************************************************/
 
 namespace gacfred
 {
-	void ChatGPTConstructor::__vwsn_gacfred_ChatGPT_Initialize(::gacfred::ChatGPT* __vwsn_this_)
-	{
-		(this->self = __vwsn_this_);
-		(this->ViewModel = ::vl::__vwsn::This(__vwsn_this_)->GetViewModel());
-		(this->__vwsn_precompile_3 = ::vl::__vwsn::This(this->self)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_3)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(640L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(480L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_0 = new ::vl::presentation::compositions::GuiTableComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_1 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		{
-			(this->listViewChats = new ::vl::presentation::controls::GuiBindableListView(::vl::presentation::theme::ThemeName::ListView));
-		}
-		{
-			::vl::__vwsn::This(this->listViewChats)->SetItemTemplate(vl::Func(::vl_workflow_global::__vwsnf21_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(this)));
-		}
-		{
-			::vl::__vwsn::This(this->listViewChats)->SetVerticalAlwaysVisible(false);
-		}
-		{
-			::vl::__vwsn::This(this->listViewChats)->SetHorizontalAlwaysVisible(false);
-		}
-		(this->__vwsn_precompile_2 = ::vl::__vwsn::This(this->listViewChats)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_2)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->listViewChats)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf22_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(this)));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->listViewChats)->GetBoundsComposition()));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_1));
-		}
-		{
-			::vl::__vwsn::This(::vl::__vwsn::This(this->self)->GetContainerComposition())->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_0));
-		}
-		{
-			::vl::__vwsn::This(this->listViewChats)->SetItemSource(::vl::Ptr<::vl::reflection::description::IValueEnumerable>(::vl::__vwsn::This(this->ViewModel.Obj())->GetChats()));
-		}
-		{
-			::vl::__vwsn::This(this->listViewChats)->SetContext(::vl::__vwsn::Box(this->ViewModel));
-		}
-		{
-			::vl::__vwsn::This(this->listViewChats)->SetArranger(::vl::Ptr<::vl::presentation::controls::GuiListControl::IItemArranger>(::vl::Ptr<::vl::presentation::controls::list::FreeHeightItemArranger>(new ::vl::presentation::controls::list::FreeHeightItemArranger())));
-		}
-		{
-			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf23_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(this->listViewChats)->SelectionChanged, __vwsn_event_handler_);
-		}
-	}
-
-	ChatGPTConstructor::ChatGPTConstructor()
-		: self(static_cast<::gacfred::ChatGPT*>(nullptr))
-		, ViewModel(::vl::Ptr<::gacfred::IChatGPTViewModel>())
-		, listViewChats(static_cast<::vl::presentation::controls::GuiBindableListView*>(nullptr))
-		, __vwsn_precompile_0(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_1(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_2(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_3(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-	{
-	}
-
-/***********************************************************************
-Class (::gacfred::ChatItemTemplateConstructor)
-***********************************************************************/
-
-	void ChatItemTemplateConstructor::__vwsn_gacfred_ChatItemTemplate_Initialize(::gacfred::ChatItemTemplate* __vwsn_this_)
-	{
-		(this->self = __vwsn_this_);
-		(this->ViewModel = ::vl::__vwsn::This(__vwsn_this_)->GetViewModel());
-		{
-			::vl::__vwsn::This(this->self)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_0 = new ::vl::presentation::compositions::GuiTableComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetRowsAndColumns(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L));
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetRowOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(1L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(640L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_1 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		{
-			(this->__vwsn_precompile_2 = new ::vl::presentation::controls::GuiDocumentLabel(::vl::presentation::theme::ThemeName::DocumentLabel));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_2)->SetEditMode(::vl::presentation::controls::GuiDocumentCommonInterface::EditMode::ViewOnly);
-		}
-		(this->__vwsn_precompile_3 = ::vl::__vwsn::This(this->__vwsn_precompile_2)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_3)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(5L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(15L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_2)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(this)));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_2)->GetBoundsComposition()));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_1));
-		}
-		(this->__vwsn_precompile_4 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_4)->SetSite(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_5 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_5)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_6 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBorderElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_6.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#999999")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_5)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_6));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_4)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_5));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_4));
-		}
-		{
-			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_0));
-		}
-		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(this)));
-			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
-		}
-		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(this)));
-			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
-		}
-	}
-
-	ChatItemTemplateConstructor::ChatItemTemplateConstructor()
-		: self(static_cast<::gacfred::ChatItemTemplate*>(nullptr))
-		, ViewModel(::vl::Ptr<::gacfred::IChat>())
-		, __vwsn_precompile_0(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_1(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_2(static_cast<::vl::presentation::controls::GuiDocumentLabel*>(nullptr))
-		, __vwsn_precompile_3(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_4(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_5(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_6(::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement>())
-	{
-	}
-
-/***********************************************************************
-Class (::gacfred::ChatItemTemplate)
-***********************************************************************/
-
-	::vl::Ptr<::gacfred::IChat> ChatItemTemplate::GetViewModel()
-	{
-		return this->__vwsn_parameter_ViewModel;
-	}
-
-	ChatItemTemplate::ChatItemTemplate(::vl::Ptr<::gacfred::IChat> __vwsn_ctor_parameter_ViewModel)
-		: __vwsn_parameter_ViewModel(::vl::Ptr<::gacfred::IChat>())
-	{
-		(this->__vwsn_parameter_ViewModel = __vwsn_ctor_parameter_ViewModel);
-		auto __vwsn_resource_ = ::vl::__vwsn::This(::vl::presentation::GetResourceManager())->GetResourceFromClassName(::vl::WString::Unmanaged(L"gacfred::ChatItemTemplate"));
-		auto __vwsn_resolver_ = ::vl::Ptr<::vl::presentation::GuiResourcePathResolver>(new ::vl::presentation::GuiResourcePathResolver(__vwsn_resource_, ::vl::__vwsn::This(__vwsn_resource_.Obj())->GetWorkingDirectory()));
-		::vl::__vwsn::This(this)->SetResourceResolver(__vwsn_resolver_);
-		::vl::__vwsn::This(this)->__vwsn_gacfred_ChatItemTemplate_Initialize(this);
-	}
-
-	ChatItemTemplate::~ChatItemTemplate()
-	{
-		this->FinalizeInstanceRecursively(static_cast<::vl::presentation::templates::GuiTemplate*>(this));
-	}
-
-/***********************************************************************
-Class (::gacfred::ClipboardConstructor)
-***********************************************************************/
-
 	void ClipboardConstructor::__vwsn_gacfred_Clipboard_Initialize(::gacfred::Clipboard* __vwsn_this_)
 	{
 		(this->self = __vwsn_this_);
@@ -2745,7 +2322,7 @@ Class (::gacfred::ClipboardConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_6)->SetText(::vl::WString::Unmanaged(L"All"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_6)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
+			::vl::__vwsn::This(this->__vwsn_precompile_6)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->btn1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_6)->GetBoundsComposition()));
@@ -2767,7 +2344,7 @@ Class (::gacfred::ClipboardConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_7)->SetText(::vl::WString::Unmanaged(L"Text"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_7)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
+			::vl::__vwsn::This(this->__vwsn_precompile_7)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->btn2)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_7)->GetBoundsComposition()));
@@ -2789,7 +2366,7 @@ Class (::gacfred::ClipboardConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_8)->SetText(::vl::WString::Unmanaged(L"Image"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_8)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
+			::vl::__vwsn::This(this->__vwsn_precompile_8)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->btn3)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_8)->GetBoundsComposition()));
@@ -2817,7 +2394,7 @@ Class (::gacfred::ClipboardConstructor)
 			(this->listViewCopies = new ::vl::presentation::controls::GuiBindableListView(::vl::presentation::theme::ThemeName::ListView));
 		}
 		{
-			::vl::__vwsn::This(this->listViewCopies)->SetItemTemplate(vl::Func(::vl_workflow_global::__vwsnf30_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
+			::vl::__vwsn::This(this->listViewCopies)->SetItemTemplate(vl::Func(::vl_workflow_global::__vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->listViewCopies)->SetVerticalAlwaysVisible(false);
@@ -2830,7 +2407,7 @@ Class (::gacfred::ClipboardConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_10)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->listViewCopies)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
+			::vl::__vwsn::This(this->listViewCopies)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_9)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->listViewCopies)->GetBoundsComposition()));
@@ -2842,15 +2419,15 @@ Class (::gacfred::ClipboardConstructor)
 			::vl::__vwsn::This(::vl::__vwsn::This(this->self)->GetContainerComposition())->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_0));
 		}
 		{
-			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
+			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(this->__vwsn_precompile_6)->Clicked, __vwsn_event_handler_);
 		}
 		{
-			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
+			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(this->__vwsn_precompile_7)->Clicked, __vwsn_event_handler_);
 		}
 		{
-			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
+			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(this->__vwsn_precompile_8)->Clicked, __vwsn_event_handler_);
 		}
 		{
@@ -2860,11 +2437,11 @@ Class (::gacfred::ClipboardConstructor)
 			::vl::__vwsn::This(this->listViewCopies)->SetContext(::vl::__vwsn::Box(this->ViewModel));
 		}
 		{
-			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
+			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(this->listViewCopies)->SelectionChanged, __vwsn_event_handler_);
 		}
 		{
-			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
+			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf30_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(this->__vwsn_precompile_12.Obj())->ShowTypeChanged, __vwsn_event_handler_);
 		}
 	}
@@ -2955,7 +2532,7 @@ Class (::gacfred::CopyItemTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_5)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(5L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(15L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_4)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
+			::vl::__vwsn::This(this->__vwsn_precompile_4)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_3)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_4)->GetBoundsComposition()));
@@ -3008,23 +2585,23 @@ Class (::gacfred::CopyItemTemplateConstructor)
 			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_0));
 		}
 		{
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
+			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
+		}
+		{
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
+			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
+		}
+		{
 			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 		{
 			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
-			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
-		}
-		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
-			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
-		}
-		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 	}
@@ -3111,10 +2688,6 @@ Class (::gacfred::DocumentLabelTemplate)
 	}
 
 /***********************************************************************
-Class (::gacfred::IChat)
-***********************************************************************/
-
-/***********************************************************************
 Class (::gacfred::ICopy)
 ***********************************************************************/
 
@@ -3124,10 +2697,6 @@ Class (::gacfred::IMainWindowViewModel)
 
 /***********************************************************************
 Class (::gacfred::IProgramViewModel)
-***********************************************************************/
-
-/***********************************************************************
-Class (::gacfred::IChatGPTViewModel)
 ***********************************************************************/
 
 /***********************************************************************
@@ -3159,8 +2728,8 @@ Class (::gacfred::ItemBackgroundTemplateConstructor)
 			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_0));
 		}
 		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_(this)));
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 	}
@@ -3197,7 +2766,7 @@ Class (::gacfred::ListViewTemplateConstructor)
 	{
 		(this->self = __vwsn_this_);
 		{
-			::vl::__vwsn::This(this->self)->SetBackgroundTemplate(vl::Func(::vl_workflow_global::__vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(this)));
+			::vl::__vwsn::This(this->self)->SetBackgroundTemplate(vl::Func(::vl_workflow_global::__vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->self)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
@@ -3208,7 +2777,7 @@ Class (::gacfred::ListViewTemplateConstructor)
 		}
 		(this->look = new ::vl::presentation::templates::GuiCommonScrollViewLook(static_cast<::vl::vint64_t>(10L)));
 		{
-			::vl::__vwsn::This(this->look)->SetVScrollTemplate(vl::Func(::vl_workflow_global::__vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(this)));
+			::vl::__vwsn::This(this->look)->SetVScrollTemplate(vl::Func(::vl_workflow_global::__vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->look)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
@@ -3557,13 +3126,13 @@ Class (::gacfred::TransparentButtonTemplateConstructor)
 			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_0));
 		}
 		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(this)));
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(this)));
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 	}
@@ -3618,8 +3187,8 @@ Class (::gacfred::VScrollHandleTemplateConstructor)
 			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_0));
 		}
 		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_(this)));
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 	}
@@ -3681,7 +3250,7 @@ Class (::gacfred::VScrollTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetAutoFocus(false);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(this)));
+			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(this)));
 		}
 		{
 			::vl::__vwsn::This(this->handle)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_0)->GetBoundsComposition()));
@@ -3693,13 +3262,13 @@ Class (::gacfred::VScrollTemplateConstructor)
 			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->handleContainer));
 		}
 		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(this)));
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(this)));
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 	}

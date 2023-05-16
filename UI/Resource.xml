@@ -99,7 +99,6 @@
   <Instance content="File">Template/DocumentLabel.xml</Instance>
   <Folder name="ListTemplate" content="Link">Template/List.xml</Folder>
   <Folder name="Clipboard" content="Link">Program/Clipboard.xml</Folder>
-  <Folder name="ChatGPT" content="Link">Program/ChatGPT.xml</Folder>
 
   <Instance name="Gacfred">
     <Instance ref.Name="mainWindow" ref.Class="gacfred::MainWindow" xmlns:gacfred="gacfred::*">

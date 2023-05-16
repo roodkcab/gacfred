@@ -66,15 +66,12 @@ add_executable(gacfred
         Main.cpp
         Lib/MD5.cpp
         Lib/util.cpp
-        Model/Chat.cpp
         Model/Copy.cpp
         ViewModel/MainWindowViewModel.cpp
         UI/Source/GacfredPartialClasses.cpp
         UI/Source/MainWindow.cpp
-        UI/Source/ChatGPT.cpp
         UI/Source/Clipboard.cpp
         ViewModel/ClipboardViewModel.cpp
-        ViewModel/ChatGPTViewModel.cpp
         Lib/Request/ChatGPTRequest.cpp)
 
 target_link_libraries (gacfred gGac GacUI ${GTK3_LIBRARIES} X11 sqlite_orm::sqlite_orm uuid cpprestsdk::cpprest)

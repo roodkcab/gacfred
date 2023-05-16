@@ -36,63 +36,55 @@ namespace vl_workflow_global
 	struct __vwsnf19_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
 	struct __vwsnf1_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
 	struct __vwsnf20_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
-	struct __vwsnf21_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_;
-	struct __vwsnf22_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_;
-	struct __vwsnf23_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_;
-	struct __vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
-	struct __vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
-	struct __vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
+	struct __vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+	struct __vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+	struct __vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+	struct __vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+	struct __vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+	struct __vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 	struct __vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 	struct __vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 	struct __vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 	struct __vwsnf2_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
 	struct __vwsnf30_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-	struct __vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-	struct __vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-	struct __vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-	struct __vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-	struct __vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-	struct __vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-	struct __vwsnf37_Gacfred_gacfred_Clipboard_PerformChangeAnimation_;
-	struct __vwsnf38_Gacfred_gacfred_Clipboard_PerformChangeAnimation_;
-	struct __vwsnf39_Gacfred_gacfred_Clipboard_PerformChangeAnimation__;
+	struct __vwsnf31_Gacfred_gacfred_Clipboard_PerformChangeAnimation_;
+	struct __vwsnf32_Gacfred_gacfred_Clipboard_PerformChangeAnimation_;
+	struct __vwsnf33_Gacfred_gacfred_Clipboard_PerformChangeAnimation__;
+	struct __vwsnf34_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_;
+	struct __vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+	struct __vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+	struct __vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+	struct __vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+	struct __vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
 	struct __vwsnf3_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
-	struct __vwsnf40_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_;
-	struct __vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-	struct __vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-	struct __vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-	struct __vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-	struct __vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-	struct __vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
-	struct __vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
-	struct __vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_;
-	struct __vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
+	struct __vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
+	struct __vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
+	struct __vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_;
+	struct __vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
+	struct __vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
+	struct __vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_;
+	struct __vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+	struct __vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+	struct __vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+	struct __vwsnf49_Gacfred_gacfred_CubicBezier_;
 	struct __vwsnf4_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize__;
-	struct __vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
-	struct __vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_;
-	struct __vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
-	struct __vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
-	struct __vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
-	struct __vwsnf55_Gacfred_gacfred_CubicBezier_;
 	struct __vwsnf5_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
 	struct __vwsnf6_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
 	struct __vwsnf7_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
 	struct __vwsnf8_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
 	struct __vwsnf9_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_;
-	class __vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine;
+	class __vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine;
+	class __vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
+	class __vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
 	class __vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
 	class __vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription;
+	class __vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+	class __vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+	class __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription;
+	class __vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription;
+	class __vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
 	class __vwsnc1_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
-	class __vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
+	class __vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
 	class __vwsnc2_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize__vl_reflection_description_IValueSubscription;
 	class __vwsnc3_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize__vl_reflection_description_IValueSubscription;
 	class __vwsnc4_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize__vl_reflection_description_IValueSubscription;
@@ -119,21 +111,15 @@ namespace gacfred
 {
 	using CopyType = ::__vwsn_enums::_gacfred_CopyType;
 
-	class ChatGPTConstructor;
-	class ChatGPT;
-	class ChatItemTemplateConstructor;
-	class ChatItemTemplate;
 	class ClipboardConstructor;
 	class Clipboard;
 	class CopyItemTemplateConstructor;
 	class CopyItemTemplate;
 	class DocumentLabelTemplateConstructor;
 	class DocumentLabelTemplate;
-	class IChat;
 	class ICopy;
 	class IMainWindowViewModel;
 	class IProgramViewModel;
-	class IChatGPTViewModel;
 	class IClipboardViewModel;
 	class ItemBackgroundTemplateConstructor;
 	class ItemBackgroundTemplate;
@@ -150,82 +136,18 @@ namespace gacfred
 	class WindowTemplateConstructor;
 	class WindowTemplate;
 
-	class ChatGPTConstructor : public ::vl::Object, public ::vl::reflection::Description<ChatGPTConstructor>
-	{
-		friend struct ::vl_workflow_global::__vwsnf21_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf22_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf23_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_;
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ChatGPTConstructor>;
-#endif
-	protected:
-		::gacfred::ChatGPT* self;
-		::vl::Ptr<::gacfred::IChatGPTViewModel> ViewModel;
-		::vl::presentation::controls::GuiBindableListView* listViewChats;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_0;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_1;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_3;
-		void __vwsn_gacfred_ChatGPT_Initialize(::gacfred::ChatGPT* __vwsn_this_);
-	public:
-		ChatGPTConstructor();
-	};
-
-	class ChatItemTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<ChatItemTemplateConstructor>
-	{
-		friend class ::vl_workflow_global::__vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ChatItemTemplateConstructor>;
-#endif
-	protected:
-		::gacfred::ChatItemTemplate* self;
-		::vl::Ptr<::gacfred::IChat> ViewModel;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_0;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_1;
-		::vl::presentation::controls::GuiDocumentLabel* __vwsn_precompile_2;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_3;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_4;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_6;
-		void __vwsn_gacfred_ChatItemTemplate_Initialize(::gacfred::ChatItemTemplate* __vwsn_this_);
-	public:
-		ChatItemTemplateConstructor();
-	};
-
-	class ChatItemTemplate : public ::vl::presentation::templates::GuiListItemTemplate, public ::gacfred::ChatItemTemplateConstructor, public ::vl::reflection::Description<ChatItemTemplate>
-	{
-		friend class ::gacfred::ChatItemTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_;
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ChatItemTemplate>;
-#endif
-	public:
-		::vl::Ptr<::gacfred::IChat> __vwsn_parameter_ViewModel;
-		::vl::Ptr<::gacfred::IChat> GetViewModel();
-		ChatItemTemplate(::vl::Ptr<::gacfred::IChat> __vwsn_ctor_parameter_ViewModel);
-		~ChatItemTemplate();
-	};
-
 	class ClipboardConstructor : public ::vl::Object, public ::vl::reflection::Description<ClipboardConstructor>
 	{
+		friend struct ::vl_workflow_global::__vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf30_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ClipboardConstructor>;
 #endif
@@ -258,15 +180,15 @@ namespace gacfred
 
 	class CopyItemTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<CopyItemTemplateConstructor>
 	{
+		friend class ::vl_workflow_global::__vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend class ::vl_workflow_global::__vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<CopyItemTemplateConstructor>;
 #endif
@@ -292,15 +214,15 @@ namespace gacfred
 	class CopyItemTemplate : public ::vl::presentation::templates::GuiListItemTemplate, public ::gacfred::CopyItemTemplateConstructor, public ::vl::reflection::Description<CopyItemTemplate>
 	{
 		friend class ::gacfred::CopyItemTemplateConstructor;
+		friend class ::vl_workflow_global::__vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend class ::vl_workflow_global::__vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<CopyItemTemplate>;
 #endif
@@ -332,20 +254,6 @@ namespace gacfred
 	public:
 		DocumentLabelTemplate();
 		~DocumentLabelTemplate();
-	};
-
-	class IChat : public virtual ::vl::reflection::IDescriptable, public ::vl::reflection::Description<IChat>
-	{
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<IChat>;
-#endif
-	public:
-		virtual ::vl::WString GetContent()const = 0;
-		virtual void SetContent(const ::vl::WString& __vwsn_value_) = 0;
-		virtual bool GetSeparatorVisible() = 0;
-		virtual void SetSeparatorVisible(bool __vwsn_value_) = 0;
-		::vl::Event<void()> SeparatorVisibleChanged;
-		virtual ::vl::Ptr<::vl::presentation::DocumentModel> GetRichContent(bool full) = 0;
 	};
 
 	class ICopy : public virtual ::vl::reflection::IDescriptable, public ::vl::reflection::Description<ICopy>
@@ -402,18 +310,6 @@ namespace gacfred
 		virtual bool HandleKeyDown(::vl::presentation::compositions::GuiKeyEventArgs* arguments) = 0;
 	};
 
-	class IChatGPTViewModel : public virtual ::gacfred::IProgramViewModel, public ::vl::reflection::Description<IChatGPTViewModel>
-	{
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<IChatGPTViewModel>;
-#endif
-	public:
-		virtual ::vl::Ptr<::vl::reflection::description::IValueObservableList> GetChats() = 0;
-		::vl::presentation::controls::GuiListControl* ListView;
-		virtual void AddChat(::vl::Ptr<::gacfred::IChat> chat) = 0;
-		virtual ::vl::Ptr<::gacfred::IChat> GetChat(::vl::vint64_t idx) = 0;
-	};
-
 	class IClipboardViewModel : public virtual ::gacfred::IProgramViewModel, public ::vl::reflection::Description<IClipboardViewModel>
 	{
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
@@ -431,8 +327,8 @@ namespace gacfred
 
 	class ItemBackgroundTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<ItemBackgroundTemplateConstructor>
 	{
-		friend class ::vl_workflow_global::__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_;
+		friend class ::vl_workflow_global::__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ItemBackgroundTemplateConstructor>;
 #endif
@@ -448,8 +344,8 @@ namespace gacfred
 	class ItemBackgroundTemplate : public ::vl::presentation::templates::GuiSelectableButtonTemplate, public ::gacfred::ItemBackgroundTemplateConstructor, public ::vl::reflection::Description<ItemBackgroundTemplate>
 	{
 		friend class ::gacfred::ItemBackgroundTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_;
+		friend class ::vl_workflow_global::__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ItemBackgroundTemplate>;
 #endif
@@ -460,8 +356,8 @@ namespace gacfred
 
 	class ListViewTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<ListViewTemplateConstructor>
 	{
-		friend struct ::vl_workflow_global::__vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ListViewTemplateConstructor>;
 #endif
@@ -477,8 +373,8 @@ namespace gacfred
 	class ListViewTemplate : public ::vl::presentation::templates::GuiListViewTemplate, public ::gacfred::ListViewTemplateConstructor, public ::vl::reflection::Description<ListViewTemplate>
 	{
 		friend class ::gacfred::ListViewTemplateConstructor;
-		friend struct ::vl_workflow_global::__vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ListViewTemplate>;
 #endif
@@ -549,10 +445,10 @@ namespace gacfred
 
 	class TransparentButtonTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<TransparentButtonTemplateConstructor>
 	{
-		friend class ::vl_workflow_global::__vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
+		friend class ::vl_workflow_global::__vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend class ::vl_workflow_global::__vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<TransparentButtonTemplateConstructor>;
 #endif
@@ -569,10 +465,10 @@ namespace gacfred
 	class TransparentButtonTemplate : public ::vl::presentation::templates::GuiButtonTemplate, public ::gacfred::TransparentButtonTemplateConstructor, public ::vl::reflection::Description<TransparentButtonTemplate>
 	{
 		friend class ::gacfred::TransparentButtonTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
+		friend class ::vl_workflow_global::__vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend class ::vl_workflow_global::__vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<TransparentButtonTemplate>;
 #endif
@@ -583,8 +479,8 @@ namespace gacfred
 
 	class VScrollHandleTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<VScrollHandleTemplateConstructor>
 	{
-		friend class ::vl_workflow_global::__vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_;
+		friend class ::vl_workflow_global::__vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<VScrollHandleTemplateConstructor>;
 #endif
@@ -600,8 +496,8 @@ namespace gacfred
 	class VScrollHandleTemplate : public ::vl::presentation::templates::GuiButtonTemplate, public ::gacfred::VScrollHandleTemplateConstructor, public ::vl::reflection::Description<VScrollHandleTemplate>
 	{
 		friend class ::gacfred::VScrollHandleTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_;
+		friend class ::vl_workflow_global::__vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<VScrollHandleTemplate>;
 #endif
@@ -612,11 +508,11 @@ namespace gacfred
 
 	class VScrollTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<VScrollTemplateConstructor>
 	{
-		friend class ::vl_workflow_global::__vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+		friend class ::vl_workflow_global::__vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend class ::vl_workflow_global::__vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<VScrollTemplateConstructor>;
 #endif
@@ -635,11 +531,11 @@ namespace gacfred
 	class VScrollTemplate : public ::vl::presentation::templates::GuiScrollTemplate, public ::gacfred::VScrollTemplateConstructor, public ::vl::reflection::Description<VScrollTemplate>
 	{
 		friend class ::gacfred::VScrollTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+		friend class ::vl_workflow_global::__vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend class ::vl_workflow_global::__vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<VScrollTemplate>;
 #endif
@@ -807,58 +703,58 @@ Closures
 		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
 	};
 
-	struct __vwsnf21_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_
+	struct __vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
 	{
-		::gacfred::ChatGPTConstructor* __vwsnthis_0;
+		::gacfred::ClipboardConstructor* __vwsnthis_0;
 
-		__vwsnf21_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(::gacfred::ChatGPTConstructor* __vwsnctorthis_0);
+		__vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
+
+		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+	};
+
+	struct __vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
+	{
+		::gacfred::ClipboardConstructor* __vwsnthis_0;
+
+		__vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
+
+		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+	};
+
+	struct __vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
+	{
+		::gacfred::ClipboardConstructor* __vwsnthis_0;
+
+		__vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
+
+		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+	};
+
+	struct __vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
+	{
+		::gacfred::ClipboardConstructor* __vwsnthis_0;
+
+		__vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
 
 		::vl::presentation::templates::GuiListItemTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
 	};
 
-	struct __vwsnf22_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_
+	struct __vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
 	{
-		::gacfred::ChatGPTConstructor* __vwsnthis_0;
+		::gacfred::ClipboardConstructor* __vwsnthis_0;
 
-		__vwsnf22_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(::gacfred::ChatGPTConstructor* __vwsnctorthis_0);
+		__vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
 
 		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
 	};
 
-	struct __vwsnf23_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_
+	struct __vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
 	{
-		::gacfred::ChatGPTConstructor* __vwsnthis_0;
+		::gacfred::ClipboardConstructor* __vwsnthis_0;
 
-		__vwsnf23_Gacfred_gacfred_ChatGPTConstructor___vwsn_gacfred_ChatGPT_Initialize_(::gacfred::ChatGPTConstructor* __vwsnctorthis_0);
+		__vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
 
 		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
-	};
-
-	struct __vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_
-	{
-		::gacfred::ChatItemTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf24_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0);
-
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
-	};
-
-	struct __vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_
-	{
-		::gacfred::ChatItemTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf25_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_
-	{
-		::gacfred::ChatItemTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf26_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize_(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
 	struct __vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
@@ -867,7 +763,7 @@ Closures
 
 		__vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
 
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
 	};
 
 	struct __vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
@@ -876,7 +772,7 @@ Closures
 
 		__vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
 
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
 	};
 
 	struct __vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
@@ -885,7 +781,7 @@ Closures
 
 		__vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
 
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
 	};
 
 	struct __vwsnf2_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_
@@ -903,94 +799,97 @@ Closures
 
 		__vwsnf30_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
 
-		::vl::presentation::templates::GuiListItemTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
-	};
-
-	struct __vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
-	{
-		::gacfred::ClipboardConstructor* __vwsnthis_0;
-
-		__vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
-
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
-	};
-
-	struct __vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
-	{
-		::gacfred::ClipboardConstructor* __vwsnthis_0;
-
-		__vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
-
-		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
-	};
-
-	struct __vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
-	{
-		::gacfred::ClipboardConstructor* __vwsnthis_0;
-
-		__vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
-
-		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
-	};
-
-	struct __vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
-	{
-		::gacfred::ClipboardConstructor* __vwsnthis_0;
-
-		__vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
-
-		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
-	};
-
-	struct __vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
-	{
-		::gacfred::ClipboardConstructor* __vwsnthis_0;
-
-		__vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
-
-		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
-	};
-
-	struct __vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_
-	{
-		::gacfred::ClipboardConstructor* __vwsnthis_0;
-
-		__vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_(::gacfred::ClipboardConstructor* __vwsnctorthis_0);
-
 		void operator()() const;
 	};
 
-	struct __vwsnf37_Gacfred_gacfred_Clipboard_PerformChangeAnimation_
+	struct __vwsnf31_Gacfred_gacfred_Clipboard_PerformChangeAnimation_
 	{
 		::vl::presentation::compositions::GuiBoundsComposition* backgroundBar;
 		::vl::vint64_t posX;
 		::gacfred::Clipboard* __vwsnthis_0;
 
-		__vwsnf37_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0);
+		__vwsnf31_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0);
 
 		void operator()(::vl::vuint64_t time) const;
 	};
 
-	struct __vwsnf38_Gacfred_gacfred_Clipboard_PerformChangeAnimation_
+	struct __vwsnf32_Gacfred_gacfred_Clipboard_PerformChangeAnimation_
 	{
 		::vl::presentation::compositions::GuiBoundsComposition* backgroundBar;
 		::vl::vint64_t posX;
 		::gacfred::Clipboard* __vwsnthis_0;
 
-		__vwsnf38_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0);
+		__vwsnf32_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0);
 
 		::vl::Ptr<::vl::reflection::description::ICoroutine> operator()(::vl::presentation::controls::IGuiAnimationCoroutine::IImpl* __vwsn_co_impl_) const;
 	};
 
-	struct __vwsnf39_Gacfred_gacfred_Clipboard_PerformChangeAnimation__
+	struct __vwsnf33_Gacfred_gacfred_Clipboard_PerformChangeAnimation__
 	{
 		::vl::presentation::compositions::GuiBoundsComposition* backgroundBar;
 		::vl::vint64_t posX;
 		::gacfred::Clipboard* __vwsnthis_0;
 
-		__vwsnf39_Gacfred_gacfred_Clipboard_PerformChangeAnimation__(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0);
+		__vwsnf33_Gacfred_gacfred_Clipboard_PerformChangeAnimation__(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0);
 
 		void operator()(::vl::vuint64_t time) const;
+	};
+
+	struct __vwsnf34_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_
+	{
+		::vl::presentation::compositions::GuiBoundsComposition* backgroundBar;
+		::vl::vint64_t posX;
+		::vl::reflection::description::ICoroutine* __vwsnthis_0;
+		::gacfred::Clipboard* __vwsnthis_1;
+
+		__vwsnf34_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::vl::reflection::description::ICoroutine* __vwsnctorthis_0, ::gacfred::Clipboard* __vwsnctorthis_1);
+
+		void operator()(::vl::vuint64_t time) const;
+	};
+
+	struct __vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	{
+		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf35_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+
+		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+	};
+
+	struct __vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	{
+		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf36_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	{
+		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf37_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	{
+		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf38_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	{
+		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf39_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
 	struct __vwsnf3_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_
@@ -1002,97 +901,97 @@ Closures
 		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
 	};
 
-	struct __vwsnf40_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_
+	struct __vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_
 	{
-		::vl::presentation::compositions::GuiBoundsComposition* backgroundBar;
-		::vl::vint64_t posX;
-		::vl::reflection::description::ICoroutine* __vwsnthis_0;
-		::gacfred::Clipboard* __vwsnthis_1;
+		::gacfred::TransparentButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf40_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_(::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::vl::reflection::description::ICoroutine* __vwsnctorthis_0, ::gacfred::Clipboard* __vwsnctorthis_1);
+		__vwsnf40_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0);
 
-		void operator()(::vl::vuint64_t time) const;
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	struct __vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_
 	{
-		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+		::gacfred::TransparentButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf41_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf41_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_
+	{
+		::gacfred::ItemBackgroundTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf42_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_(::gacfred::ItemBackgroundTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_
+	{
+		::gacfred::ListViewTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf43_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(::gacfred::ListViewTemplateConstructor* __vwsnctorthis_0);
+
+		::vl::presentation::templates::GuiSelectableButtonTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+	};
+
+	struct __vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_
+	{
+		::gacfred::ListViewTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf44_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(::gacfred::ListViewTemplateConstructor* __vwsnctorthis_0);
+
+		::vl::presentation::templates::GuiScrollTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+	};
+
+	struct __vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_
+	{
+		::gacfred::VScrollHandleTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf45_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_(::gacfred::VScrollHandleTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_
+	{
+		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf46_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
 
 		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
 	};
 
-	struct __vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	struct __vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_
 	{
-		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf42_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf47_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	struct __vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_
 	{
-		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf43_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf48_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
+	struct __vwsnf49_Gacfred_gacfred_CubicBezier_
 	{
-		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+		double mX1;
+		double mX2;
+		double mY1;
+		double mY2;
 
-		__vwsnf44_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf49_Gacfred_gacfred_CubicBezier_(double __vwsnctor_mX1, double __vwsnctor_mX2, double __vwsnctor_mY1, double __vwsnctor_mY2);
 
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_
-	{
-		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf45_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize_(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_
-	{
-		::gacfred::TransparentButtonTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf46_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_
-	{
-		::gacfred::TransparentButtonTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf47_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize_(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_
-	{
-		::gacfred::ItemBackgroundTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf48_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize_(::gacfred::ItemBackgroundTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_
-	{
-		::gacfred::ListViewTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf49_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(::gacfred::ListViewTemplateConstructor* __vwsnctorthis_0);
-
-		::vl::presentation::templates::GuiSelectableButtonTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+		double operator()(double x) const;
 	};
 
 	struct __vwsnf4_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize__
@@ -1102,63 +1001,6 @@ Closures
 		__vwsnf4_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize__(::gacfred::MainWindowConstructor* __vwsnctorthis_0);
 
 		void operator()() const;
-	};
-
-	struct __vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_
-	{
-		::gacfred::ListViewTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf50_Gacfred_gacfred_ListViewTemplateConstructor___vwsn_gacfred_ListViewTemplate_Initialize_(::gacfred::ListViewTemplateConstructor* __vwsnctorthis_0);
-
-		::vl::presentation::templates::GuiScrollTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
-	};
-
-	struct __vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_
-	{
-		::gacfred::VScrollHandleTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf51_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize_(::gacfred::VScrollHandleTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_
-	{
-		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf52_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
-
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
-	};
-
-	struct __vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_
-	{
-		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf53_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_
-	{
-		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf54_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize_(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf55_Gacfred_gacfred_CubicBezier_
-	{
-		double mX1;
-		double mX2;
-		double mY1;
-		double mY2;
-
-		__vwsnf55_Gacfred_gacfred_CubicBezier_(double __vwsnctor_mX1, double __vwsnctor_mX2, double __vwsnctor_mY1, double __vwsnctor_mY2);
-
-		double operator()(double x) const;
 	};
 
 	struct __vwsnf5_Gacfred_gacfred_MainWindowConstructor___vwsn_gacfred_MainWindow_Initialize_
@@ -1206,43 +1048,7 @@ Closures
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	class __vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
-	{
-	public:
-		::gacfred::ChatItemTemplateConstructor* __vwsnthis_0;
-
-		__vwsnc10_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0);
-
-		bool __vwsn_bind_opened_ = false;
-		bool __vwsn_bind_closed_ = false;
-		void __vwsn_bind_activator_();
-		bool Open() override;
-		bool Update() override;
-		bool Close() override;
-	};
-
-	class __vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
-	{
-	public:
-		::gacfred::ChatItemTemplateConstructor* __vwsnthis_0;
-
-		__vwsnc11_Gacfred_gacfred_ChatItemTemplateConstructor___vwsn_gacfred_ChatItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::ChatItemTemplateConstructor* __vwsnctorthis_0);
-
-		::gacfred::ChatItemTemplate* __vwsn_bind_cache_0 = nullptr;
-		::vl::Ptr<::gacfred::IChat> __vwsn_bind_cache_1;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
-		bool __vwsn_bind_opened_ = false;
-		bool __vwsn_bind_closed_ = false;
-		void __vwsn_bind_activator_();
-		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		void __vwsn_bind_callback_1_0();
-		bool Open() override;
-		bool Update() override;
-		bool Close() override;
-	};
-
-	class __vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine : public ::vl::Object, public virtual ::vl::reflection::description::ICoroutine
+	class __vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine : public ::vl::Object, public virtual ::vl::reflection::description::ICoroutine
 	{
 	public:
 		::vl::presentation::controls::IGuiAnimationCoroutine::IImpl* __vwsn_co_impl_;
@@ -1250,7 +1056,7 @@ Closures
 		::vl::vint64_t posX;
 		::gacfred::Clipboard* __vwsnthis_0;
 
-		__vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine(::vl::presentation::controls::IGuiAnimationCoroutine::IImpl* __vwsnctor___vwsn_co_impl_, ::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0);
+		__vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine(::vl::presentation::controls::IGuiAnimationCoroutine::IImpl* __vwsnctor___vwsn_co_impl_, ::vl::presentation::compositions::GuiBoundsComposition* __vwsnctor_backgroundBar, ::vl::vint64_t __vwsnctor_posX, ::gacfred::Clipboard* __vwsnctorthis_0);
 
 		::vl::vint64_t __vwsn_co_state_ = 0;
 		::vl::vint64_t __vwsn_co_state_before_pause_ = 0;
@@ -1263,42 +1069,42 @@ Closures
 		void Resume(bool __vwsn_raise_exception_, ::vl::Ptr<::vl::reflection::description::CoroutineResult> __vwsn_co_result_) override;
 	};
 
+	class __vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	{
+	public:
+		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+
+		__vwsnc11_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+
+		bool __vwsn_bind_opened_ = false;
+		bool __vwsn_bind_closed_ = false;
+		void __vwsn_bind_activator_();
+		bool Open() override;
+		bool Update() override;
+		bool Close() override;
+	};
+
+	class __vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	{
+	public:
+		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
+
+		__vwsnc12_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+
+		bool __vwsn_bind_opened_ = false;
+		bool __vwsn_bind_closed_ = false;
+		void __vwsn_bind_activator_();
+		bool Open() override;
+		bool Update() override;
+		bool Close() override;
+	};
+
 	class __vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
 	{
 	public:
 		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
 
 		__vwsnc13_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
-
-		bool __vwsn_bind_opened_ = false;
-		bool __vwsn_bind_closed_ = false;
-		void __vwsn_bind_activator_();
-		bool Open() override;
-		bool Update() override;
-		bool Close() override;
-	};
-
-	class __vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
-	{
-	public:
-		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
-
-		__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
-
-		bool __vwsn_bind_opened_ = false;
-		bool __vwsn_bind_closed_ = false;
-		void __vwsn_bind_activator_();
-		bool Open() override;
-		bool Update() override;
-		bool Close() override;
-	};
-
-	class __vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
-	{
-	public:
-		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
-
-		__vwsnc15_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
 
 		::gacfred::CopyItemTemplate* __vwsn_bind_cache_0 = nullptr;
 		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
@@ -1311,12 +1117,12 @@ Closures
 		bool Close() override;
 	};
 
-	class __vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	class __vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
 	{
 	public:
 		::gacfred::CopyItemTemplateConstructor* __vwsnthis_0;
 
-		__vwsnc16_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
+		__vwsnc14_Gacfred_gacfred_CopyItemTemplateConstructor___vwsn_gacfred_CopyItemTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::CopyItemTemplateConstructor* __vwsnctorthis_0);
 
 		::gacfred::CopyItemTemplate* __vwsn_bind_cache_0 = nullptr;
 		::vl::Ptr<::gacfred::ICopy> __vwsn_bind_cache_1;
@@ -1332,12 +1138,12 @@ Closures
 		bool Close() override;
 	};
 
-	class __vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	class __vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
 	{
 	public:
 		::gacfred::TransparentButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnc17_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnc15_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0);
 
 		::gacfred::TransparentButtonTemplate* __vwsn_bind_cache_0 = nullptr;
 		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
@@ -1350,12 +1156,12 @@ Closures
 		bool Close() override;
 	};
 
-	class __vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	class __vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
 	{
 	public:
 		::gacfred::TransparentButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnc18_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnc16_Gacfred_gacfred_TransparentButtonTemplateConstructor___vwsn_gacfred_TransparentButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::TransparentButtonTemplateConstructor* __vwsnctorthis_0);
 
 		::gacfred::TransparentButtonTemplate* __vwsn_bind_cache_0 = nullptr;
 		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
@@ -1368,12 +1174,12 @@ Closures
 		bool Close() override;
 	};
 
-	class __vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	class __vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
 	{
 	public:
 		::gacfred::ItemBackgroundTemplateConstructor* __vwsnthis_0;
 
-		__vwsnc19_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::ItemBackgroundTemplateConstructor* __vwsnctorthis_0);
+		__vwsnc17_Gacfred_gacfred_ItemBackgroundTemplateConstructor___vwsn_gacfred_ItemBackgroundTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::ItemBackgroundTemplateConstructor* __vwsnctorthis_0);
 
 		::gacfred::ItemBackgroundTemplate* __vwsn_bind_cache_0 = nullptr;
 		::gacfred::ItemBackgroundTemplate* __vwsn_bind_cache_1 = nullptr;
@@ -1387,6 +1193,48 @@ Closures
 		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
 		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
 		void __vwsn_bind_callback_2_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
+		bool Open() override;
+		bool Update() override;
+		bool Close() override;
+	};
+
+	class __vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	{
+	public:
+		::gacfred::VScrollHandleTemplateConstructor* __vwsnthis_0;
+
+		__vwsnc18_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollHandleTemplateConstructor* __vwsnctorthis_0);
+
+		::gacfred::VScrollHandleTemplate* __vwsn_bind_cache_0 = nullptr;
+		::gacfred::VScrollHandleTemplate* __vwsn_bind_cache_1 = nullptr;
+		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
+		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
+		bool __vwsn_bind_opened_ = false;
+		bool __vwsn_bind_closed_ = false;
+		void __vwsn_bind_activator_();
+		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
+		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
+		bool Open() override;
+		bool Update() override;
+		bool Close() override;
+	};
+
+	class __vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	{
+	public:
+		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
+
+		__vwsnc19_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
+
+		::gacfred::VScrollTemplate* __vwsn_bind_cache_0 = nullptr;
+		::gacfred::VScrollTemplate* __vwsn_bind_cache_1 = nullptr;
+		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
+		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
+		bool __vwsn_bind_opened_ = false;
+		bool __vwsn_bind_closed_ = false;
+		void __vwsn_bind_activator_();
+		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
+		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
 		bool Open() override;
 		bool Update() override;
 		bool Close() override;
@@ -1410,54 +1258,12 @@ Closures
 		bool Close() override;
 	};
 
-	class __vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
-	{
-	public:
-		::gacfred::VScrollHandleTemplateConstructor* __vwsnthis_0;
-
-		__vwsnc20_Gacfred_gacfred_VScrollHandleTemplateConstructor___vwsn_gacfred_VScrollHandleTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollHandleTemplateConstructor* __vwsnctorthis_0);
-
-		::gacfred::VScrollHandleTemplate* __vwsn_bind_cache_0 = nullptr;
-		::gacfred::VScrollHandleTemplate* __vwsn_bind_cache_1 = nullptr;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
-		bool __vwsn_bind_opened_ = false;
-		bool __vwsn_bind_closed_ = false;
-		void __vwsn_bind_activator_();
-		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		bool Open() override;
-		bool Update() override;
-		bool Close() override;
-	};
-
-	class __vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
+	class __vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
 	{
 	public:
 		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
 
-		__vwsnc21_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
-
-		::gacfred::VScrollTemplate* __vwsn_bind_cache_0 = nullptr;
-		::gacfred::VScrollTemplate* __vwsn_bind_cache_1 = nullptr;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
-		bool __vwsn_bind_opened_ = false;
-		bool __vwsn_bind_closed_ = false;
-		void __vwsn_bind_activator_();
-		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		bool Open() override;
-		bool Update() override;
-		bool Close() override;
-	};
-
-	class __vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription : public ::vl::Object, public virtual ::vl::reflection::description::IValueSubscription
-	{
-	public:
-		::gacfred::VScrollTemplateConstructor* __vwsnthis_0;
-
-		__vwsnc22_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
+		__vwsnc20_Gacfred_gacfred_VScrollTemplateConstructor___vwsn_gacfred_VScrollTemplate_Initialize__vl_reflection_description_IValueSubscription(::gacfred::VScrollTemplateConstructor* __vwsnctorthis_0);
 
 		::gacfred::VScrollTemplate* __vwsn_bind_cache_0 = nullptr;
 		::gacfred::VScrollTemplate* __vwsn_bind_cache_1 = nullptr;

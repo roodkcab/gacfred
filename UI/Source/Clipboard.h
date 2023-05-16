@@ -26,22 +26,22 @@ namespace gacfred
 {
 	class Clipboard : public ::vl::presentation::controls::GuiCustomControl, public ::gacfred::ClipboardConstructor, public ::vl::reflection::Description<Clipboard>
 	{
-		friend class ::vl_workflow_global::__vwsnc12_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine;
-		friend struct ::vl_workflow_global::__vwsnf37_Gacfred_gacfred_Clipboard_PerformChangeAnimation_;
-		friend struct ::vl_workflow_global::__vwsnf38_Gacfred_gacfred_Clipboard_PerformChangeAnimation_;
-		friend struct ::vl_workflow_global::__vwsnf39_Gacfred_gacfred_Clipboard_PerformChangeAnimation__;
-		friend struct ::vl_workflow_global::__vwsnf40_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_;
+		friend class ::vl_workflow_global::__vwsnc10_Gacfred_gacfred_Clipboard_PerformChangeAnimation___vl_reflection_description_ICoroutine;
+		friend struct ::vl_workflow_global::__vwsnf31_Gacfred_gacfred_Clipboard_PerformChangeAnimation_;
+		friend struct ::vl_workflow_global::__vwsnf32_Gacfred_gacfred_Clipboard_PerformChangeAnimation_;
+		friend struct ::vl_workflow_global::__vwsnf33_Gacfred_gacfred_Clipboard_PerformChangeAnimation__;
+		friend struct ::vl_workflow_global::__vwsnf34_Gacfred_gacfred_Clipboard_PerformChangeAnimation__Resume_;
 		friend class ::gacfred::ClipboardConstructor;
+		friend struct ::vl_workflow_global::__vwsnf21_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf22_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf23_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf24_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf25_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf26_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf27_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf28_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf29_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf30_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf31_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf32_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf33_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf34_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf35_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf36_Gacfred_gacfred_ClipboardConstructor___vwsn_gacfred_Clipboard_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<Clipboard>;
 #endif

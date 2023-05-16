@@ -33,10 +33,6 @@ namespace vl
 		namespace description
 		{
 #ifndef VCZH_DEBUG_NO_REFLECTION
-			DECL_TYPE_INFO(::gacfred::ChatGPT)
-			DECL_TYPE_INFO(::gacfred::ChatGPTConstructor)
-			DECL_TYPE_INFO(::gacfred::ChatItemTemplate)
-			DECL_TYPE_INFO(::gacfred::ChatItemTemplateConstructor)
 			DECL_TYPE_INFO(::gacfred::Clipboard)
 			DECL_TYPE_INFO(::gacfred::ClipboardConstructor)
 			DECL_TYPE_INFO(::gacfred::CopyItemTemplate)
@@ -44,8 +40,6 @@ namespace vl
 			DECL_TYPE_INFO(::gacfred::CopyType)
 			DECL_TYPE_INFO(::gacfred::DocumentLabelTemplate)
 			DECL_TYPE_INFO(::gacfred::DocumentLabelTemplateConstructor)
-			DECL_TYPE_INFO(::gacfred::IChat)
-			DECL_TYPE_INFO(::gacfred::IChatGPTViewModel)
 			DECL_TYPE_INFO(::gacfred::IClipboardViewModel)
 			DECL_TYPE_INFO(::gacfred::ICopy)
 			DECL_TYPE_INFO(::gacfred::IMainWindowViewModel)
@@ -66,29 +60,6 @@ namespace vl
 			DECL_TYPE_INFO(::gacfred::WindowTemplateConstructor)
 
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-
-			BEGIN_INTERFACE_PROXY_NOPARENT_SHAREDPTR(::gacfred::IChat)
-				::vl::WString GetContent() override
-				{
-					INVOKEGET_INTERFACE_PROXY_NOPARAMS(GetContent);
-				}
-				::vl::Ptr<::vl::presentation::DocumentModel> GetRichContent(bool full) override
-				{
-					INVOKEGET_INTERFACE_PROXY(GetRichContent, full);
-				}
-				bool GetSeparatorVisible() override
-				{
-					INVOKEGET_INTERFACE_PROXY_NOPARAMS(GetSeparatorVisible);
-				}
-				void SetContent(const ::vl::WString& __vwsn_value_) override
-				{
-					INVOKE_INTERFACE_PROXY(SetContent, __vwsn_value_);
-				}
-				void SetSeparatorVisible(bool __vwsn_value_) override
-				{
-					INVOKE_INTERFACE_PROXY(SetSeparatorVisible, __vwsn_value_);
-				}
-			END_INTERFACE_PROXY(::gacfred::IChat)
 
 			BEGIN_INTERFACE_PROXY_NOPARENT_SHAREDPTR(::gacfred::ICopy)
 				::vl::WString GetContent() override
@@ -194,21 +165,6 @@ namespace vl
 					INVOKE_INTERFACE_PROXY(SetSearch, __vwsn_value_);
 				}
 			END_INTERFACE_PROXY(::gacfred::IProgramViewModel)
-
-			BEGIN_INTERFACE_PROXY_SHAREDPTR(::gacfred::IChatGPTViewModel, ::gacfred::IProgramViewModel)
-				void AddChat(::vl::Ptr<::gacfred::IChat> chat) override
-				{
-					INVOKE_INTERFACE_PROXY(AddChat, chat);
-				}
-				::vl::Ptr<::gacfred::IChat> GetChat(::vl::vint64_t idx) override
-				{
-					INVOKEGET_INTERFACE_PROXY(GetChat, idx);
-				}
-				::vl::Ptr<::vl::reflection::description::IValueObservableList> GetChats() override
-				{
-					INVOKEGET_INTERFACE_PROXY_NOPARAMS(GetChats);
-				}
-			END_INTERFACE_PROXY(::gacfred::IChatGPTViewModel)
 
 			BEGIN_INTERFACE_PROXY_SHAREDPTR(::gacfred::IClipboardViewModel, ::gacfred::IProgramViewModel)
 				void AddCopy(::vl::Ptr<::gacfred::ICopy> copy) override

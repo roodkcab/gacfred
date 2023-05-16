@@ -11,7 +11,6 @@ https://github.com/vczh-libraries
 #define VCZH_WORKFLOW_COMPILER_GENERATED_GACFRED
 
 #include "GacfredPartialClasses.h"
-#include "ChatGPT.h"
 #include "Clipboard.h"
 #include "MainWindow.h"
 

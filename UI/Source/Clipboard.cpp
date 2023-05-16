@@ -50,7 +50,7 @@ namespace gacfred
 
 	::vl::Ptr<::vl::presentation::controls::IGuiAnimation> Clipboard::PerformChangeAnimation(::vl::presentation::compositions::GuiBoundsComposition* backgroundBar, ::vl::vint64_t posX)
 	{
-		return ::vl::presentation::controls::IGuiAnimationCoroutine::Create(vl::Func(::vl_workflow_global::__vwsnf38_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(backgroundBar, posX, this)));
+		return ::vl::presentation::controls::IGuiAnimationCoroutine::Create(vl::Func(::vl_workflow_global::__vwsnf32_Gacfred_gacfred_Clipboard_PerformChangeAnimation_(backgroundBar, posX, this)));
 	}
 
 	::vl::Ptr<::gacfred::IClipboardViewModel> Clipboard::GetViewModel()
