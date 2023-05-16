@@ -3,3 +3,4 @@ Debug
 *.log
 build
 *debug
+*release
